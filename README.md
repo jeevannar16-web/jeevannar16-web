@@ -30,7 +30,7 @@
 
 | GitHub Stats | Most Used Languages |
 | --- | --- |
-| ![Jeevan's Stats](https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight) |
+| ![Jeevan's Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight) | ![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight) |
 
 ### 🔥 My Current Streak
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jeevannar16-web&theme=tokyonight)
