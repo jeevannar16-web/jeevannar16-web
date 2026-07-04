@@ -2,6 +2,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Jeevan&fontSize=65&fontColor=00ff9c&animation=fadeIn&fontAlignY=38&desc=Class%2011%20Computer%20Engineering%20Student&descAlignY=58&descColor=8be9fd" width="100%"/>
 
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Building+backend+APIs+with+Django;Learning+SQL+%2B+JavaScript+logic;Class+11+Computer+Engineering+Student" alt="Typing SVG" />
+
 <img src="https://komarev.com/ghpvc/?username=jeevannar16-web&color=00ff9c&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
 
 </div>
