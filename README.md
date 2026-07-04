@@ -1,36 +1,31 @@
-# Hi there, I'm Jeevan! 👋
+<div align="center">
 
-### 🚀 About Me
-- 🎓 **Student:** Class 11 Computer Engineering student at **Shivapuri Secondary School**
-- 🔭 **Currently Focusing On:** Deepening my knowledge in Python, JavaScript, and backend development.
-- 🌱 **Learning & Exploring:** Building scalable web applications and exploring database management.
-- 💻 **Goal:** Crafting clean code and building efficient web platforms.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Jeevan&fontSize=65&fontColor=00ff9c&animation=fadeIn&fontAlignY=38&desc=Class%2011%20Computer%20Engineering%20Student&descAlignY=58&descColor=8be9fd" width="100%"/>
 
----
+<img src="https://komarev.com/ghpvc/?username=jeevannar16-web&color=00ff9c&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
 
-### 🛠️ Tech Stack & Tools
+</div>
 
-#### 🌐 Frontend Development
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+<br>
 
-#### 🐍 Backend & Software Development
-![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+```bash
+jeevan@shivapuri:~$ cat about_me.txt
+```
 
-#### 🗄️ Database Management
-![SQL](https://img.shields.io/badge/sql-%234169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+> I enjoy building clean, efficient systems and turning logic into working software.
+>
+> Currently focused on:
+> - 🧠 Deepening intermediate **JavaScript** logic
+> - ⚙️ Building backend **APIs with Python & Django**
+> - 🗄️ Connecting those APIs to **SQL** databases
+> - 🎓 Studying Computer Engineering at Shivapuri Secondary School (Grade 11)
 
----
+<br>
 
-### 📊 My GitHub Statistics
+```bash
+jeevan@shivapuri:~$ fastfetch
+```
 
-| GitHub Stats | Most Used Languages |
-| --- | --- |
-| ![Jeevan's Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight) | ![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight) |
-
-### 🔥 My Current Streak
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jeevannar16-web&theme=tokyonight)
+<table>
+<tr>
+<td valign="top" width="50%">
