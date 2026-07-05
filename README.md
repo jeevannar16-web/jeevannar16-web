@@ -3,15 +3,17 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3200&pause=700&color=00FF9C&center=true&vCenter=true&width=750&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows;Kitty+terminal+%7C+bash+%7C+VS+Code;Building+one+commit+at+a+time" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3200&pause=700&color=00FF9C&center=true&vCenter=true&width=800&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows;Kitty+terminal+%7C+bash+%7C+VS+Code;Building+one+commit+at+a+time" alt="Typing SVG" />
 </div>
 
-<!-- quick links -->
+<br>
+
+<!-- 🔗 QUICK NAVIGATION -->
 <div align="center">
-  <a href="#about"><img src="https://img.shields.io/badge/%F0%9F%91%A4_About-2c5364?style=for-the-badge"/></a>
-  <a href="#stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A_Stats-2c5364?style=for-the-badge"/></a>
-  <a href="#projects"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Projects-2c5364?style=for-the-badge"/></a>
-  <a href="#contact"><img src="https://img.shields.io/badge/%F0%9F%93%AC_Contact-2c5364?style=for-the-badge"/></a>
+  <a href="#about"><img src="https://img.shields.io/badge/%F0%9F%91%A4+About-1e1e2e?style=for-the-badge&logoColor=white&color=1e1e2e"/></a>
+  <a href="#stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A+Stats-1e1e2e?style=for-the-badge&logoColor=white&color=1e1e2e"/></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/%F0%9F%9A%80+Projects-1e1e2e?style=for-the-badge&logoColor=white&color=1e1e2e"/></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/%F0%9F%93%AC+Contact-1e1e2e?style=for-the-badge&logoColor=white&color=1e1e2e"/></a>
   <a href="https://leetcode.com/u/jeevannar16-web/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
   <a href="https://huggingface.co/Jeevannar16"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
   <a href="https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f"><img src="https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white"/></a>
@@ -27,15 +29,21 @@
     <img src="https://img.shields.io/github/stars/jeevannar16-web?style=flat-square&color=f9e2af&label=STARS" alt="Stars"/>
   </a>
   <a href="https://github.com/jeevannar16-web?tab=repositories">
-    <img src="https://img.shields.io/badge/REPOS-8?style=flat-square&color=00ff9c" alt="Repos"/>
+    <img src="https://img.shields.io/badge/REPOS_%F0%9F%93%81-8-00ff9c?style=flat-square&color=00ff9c" alt="Repos"/>
   </a>
 </div>
 
-<a id="stats"></a>
+<br>
 
-```bash
-jeevan@arch:~$ ./stats.sh
-```
+<!-- ====== STATS ====== -->
+<a id="stats"></a>
+<h2 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=00FF9C&center=true&vCenter=true&width=200&lines=%F0%9F%93%8A+STATS" alt="STATS"/>
+</h2>
+
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #00ff9c55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
+</pre>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevannar16-web&theme=tokyonight" width="100%"/>
 
@@ -71,19 +79,23 @@ jeevan@arch:~$ ./stats.sh
 
 ---
 
+<!-- ====== ABOUT ====== -->
 <a id="about"></a>
+<h2 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=89B4FA&center=true&vCenter=true&width=200&lines=%F0%9F%91%A4+ABOUT" alt="ABOUT"/>
+</h2>
 
-```bash
-jeevan@arch:~$ cat about_me.txt
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #89b4fa55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">cat about_me.txt</span>
+</pre>
 
 I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace. Currently focused on deepening intermediate **JavaScript**, building backend **APIs with Python & Django**, and connecting them to **SQL** databases. I run a **triple-boot Arch / Ubuntu / Windows** setup and study **Computer Engineering** at Shivapuri Secondary School (Grade XI).
 
 ---
 
-```bash
-jeevan@arch:~$ fastfetch
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f5c2e755;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">fastfetch</span>
+</pre>
 
 | | |
 |---|---|
@@ -98,9 +110,9 @@ jeevan@arch:~$ fastfetch
 
 ---
 
-```bash
-jeevan@arch:~$ ls ./tech_stack/
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f9e2af55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./tech_stack/</span>
+</pre>
 
 **Frontend**
 
@@ -132,9 +144,9 @@ jeevan@arch:~$ ls ./tech_stack/
 
 ---
 
-```bash
-jeevan@arch:~$ cat activity.log
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #94e2d555;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">cat activity.log</span>
+</pre>
 
 <div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
@@ -144,9 +156,9 @@ jeevan@arch:~$ cat activity.log
 
 ---
 
-```bash
-jeevan@arch:~$ curl -s https://api.quotable.io/random | jq '.content'
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f5c2e755;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">curl -s https://api.quotable.io/random | jq '.content'</span>
+</pre>
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%" alt="Dev Quote"/>
@@ -154,9 +166,9 @@ jeevan@arch:~$ curl -s https://api.quotable.io/random | jq '.content'
 
 ---
 
-```bash
-jeevan@arch:~$ cat contribution_3d.log
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #00ff9c55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">cat contribution_3d.log</span>
+</pre>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
@@ -164,11 +176,15 @@ jeevan@arch:~$ cat contribution_3d.log
 
 ---
 
+<!-- ====== PROJECTS ====== -->
 <a id="projects"></a>
+<h2 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=F9E2AF&center=true&vCenter=true&width=250&lines=%F0%9F%9A%80+PROJECTS" alt="PROJECTS"/>
+</h2>
 
-```bash
-jeevan@arch:~$ ls ./projects/
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f9e2af55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
+</pre>
 
 <table>
   <tr>
@@ -195,9 +211,9 @@ jeevan@arch:~$ ls ./projects/
 
 ---
 
-```bash
-jeevan@arch:~$ ps aux | grep current_focus
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #a6e3a155;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">ps aux | grep current_focus</span>
+</pre>
 
 | | Task |
 |:---:|:---|
@@ -209,9 +225,9 @@ jeevan@arch:~$ ps aux | grep current_focus
 
 ---
 
-```bash
-jeevan@arch:~$ cat recent_stars.txt
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f38ba855;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">cat recent_stars.txt</span>
+</pre>
 
 <table align="center">
   <tr>
@@ -242,11 +258,15 @@ jeevan@arch:~$ cat recent_stars.txt
 
 ---
 
+<!-- ====== CONTACT ====== -->
 <a id="contact"></a>
+<h2 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=F38BA8&center=true&vCenter=true&width=220&lines=%F0%9F%93%AC+CONTACT" alt="CONTACT"/>
+</h2>
 
-```bash
-jeevan@arch:~$ ./contact.sh
-```
+<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f38ba855;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
+jeevan@arch:~$ <span style="color:#a6e3a1;">./contact.sh</span>
+</pre>
 
 <div align="center">
 
@@ -258,6 +278,8 @@ jeevan@arch:~$ ./contact.sh
 
 </div>
 
+<br>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=80&section=footer&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,100:0f2027&height=90&section=footer&animation=twinkling&fontColor=00ff9c"/>
 </div>
