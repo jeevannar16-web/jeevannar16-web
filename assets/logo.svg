@@ -19,7 +19,7 @@
   <circle cx="68" cy="28" r="6" fill="#27c93f"/>
 
   <!-- prompt line -->
-  <text x="30" y="70" font-family="Fira Code, monospace" font-size="20" fill="#8be9fd">jeevan@home</text>
+  <text x="30" y="70" font-family="Fira Code, monospace" font-size="20" fill="#8be9fd">jeevan@arch</text>
   <text x="185" y="70" font-family="Fira Code, monospace" font-size="20" fill="#f8f8f2">:~$</text>
 
   <!-- typed name with blinking cursor -->

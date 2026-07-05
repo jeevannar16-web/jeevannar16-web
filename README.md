@@ -1,19 +1,21 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/assets/logo.svg" width="100%" alt="Jeevan banner logo"/>
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/assets/logo.svg" width="100%" alt="Jeevan banner"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=700&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3200&pause=700&color=00FF9C&center=true&vCenter=true&width=750&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows;Kitty+terminal+%7C+bash+%7C+VS+Code;Building+one+commit+at+a+time" alt="Typing SVG" />
 </div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=jeevannar16-web&color=00ff9c&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/jeevannar16-web?style=flat-square&color=89b4fa&label=FOLLOWERS" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/jeevannar16-web?style=flat-square&color=f9e2af&label=STARS" alt="Stars"/>
 </div>
 
 ---
 
 ```bash
-jeevan@shivapuri:~$ cat about_me.txt
+jeevan@arch:~$ cat about_me.txt
 ```
 
 I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace. Currently focused on deepening intermediate **JavaScript**, building backend **APIs with Python & Django**, and connecting them to **SQL** databases. I run a **triple-boot Arch / Ubuntu / Windows** setup and study **Computer Engineering** at Shivapuri Secondary School (Grade XI).
@@ -21,7 +23,7 @@ I enjoy building clean, efficient systems and turning logic into working softwar
 ---
 
 ```bash
-jeevan@shivapuri:~$ fastfetch
+jeevan@arch:~$ fastfetch
 ```
 
 | | |
@@ -31,13 +33,14 @@ jeevan@shivapuri:~$ fastfetch
 | **Grade** | XI — Computer Engineering |
 | **Location** | Kathmandu, Nepal |
 | **Shell** | bash |
+| **Terminal** | Kitty |
 | **Editor** | VS Code |
 | **Status** | 🟢 building something |
 
 ---
 
 ```bash
-jeevan@shivapuri:~$ ls ./tech_stack/
+jeevan@arch:~$ ls ./tech_stack/
 ```
 
 **Frontend**
@@ -59,9 +62,10 @@ jeevan@shivapuri:~$ ls ./tech_stack/
 
 **Systems & Tools**
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kitty](https://img.shields.io/badge/Kitty-1e1e2e?style=for-the-badge&logo=kitty&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -70,7 +74,7 @@ jeevan@shivapuri:~$ ls ./tech_stack/
 ---
 
 ```bash
-jeevan@shivapuri:~$ ./stats.sh --theme=tokyonight
+jeevan@arch:~$ ./stats.sh
 ```
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevannar16-web&theme=tokyonight" width="100%"/>
@@ -112,17 +116,19 @@ jeevan@shivapuri:~$ ./stats.sh --theme=tokyonight
 ---
 
 ```bash
-jeevan@shivapuri:~$ cat contribution_3d.log
+jeevan@arch:~$ cat activity.log
 ```
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevannar16-web&theme=tokyonight&hide_border=true&area=true" width="100%"/>
+  </a>
 </div>
 
 ---
 
 ```bash
-jeevan@shivapuri:~$ cat snake.log
+jeevan@arch:~$ cat snake.log
 ```
 
 <div align="center">
@@ -136,7 +142,50 @@ jeevan@shivapuri:~$ cat snake.log
 ---
 
 ```bash
-jeevan@shivapuri:~$ ps aux | grep current_focus
+jeevan@arch:~$ cat contribution_3d.log
+```
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+</div>
+
+---
+
+```bash
+jeevan@arch:~$ ls ./projects/
+```
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="100%"/>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/jeevannar16-web/Fitness-Hub">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Fitness-Hub&theme=tokyonight&hide_border=true" width="100%"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/jeevannar16-web/Java-class-11-">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Java-class-11-&theme=tokyonight&hide_border=true" width="100%"/>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/jeevannar16-web/c-plus-plus">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=c-plus-plus&theme=tokyonight&hide_border=true" width="100%"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+```bash
+jeevan@arch:~$ ps aux | grep current_focus
 ```
 
 | | Task |
@@ -150,17 +199,40 @@ jeevan@shivapuri:~$ ps aux | grep current_focus
 ---
 
 ```bash
-jeevan@shivapuri:~$ ls ./currently_building/
+jeevan@arch:~$ cat recent_stars.txt
 ```
 
-- 🚧 [`django-api-project`](https://github.com/jeevannar16-web) — backend API with Django + SQL database
-- 🚧 [`js-practice-logs`](https://github.com/jeevannar16-web) — JavaScript exercises and logic drills
-- 🚧 [`arch-dotfiles`](https://github.com/jeevannar16-web) — configs and notes from my triple-boot setup
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/DevXtechnic/KinaHub">DevXtechnic/KinaHub</a> — AI-powered e-commerce & CRM
+    </td>
+    <td align="center">
+      <a href="https://github.com/DevXtechnic/Neopluse">DevXtechnic/Neopluse</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/DevXtechnic/DevXtechnic.github.io">DevXtechnic/DevXtechnic.github.io</a> — Personal website "The Aura"
+    </td>
+    <td align="center">
+      <a href="https://github.com/DevXtechnic/Ytdaily">DevXtechnic/Ytdaily</a> — YouTube feed downloader
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/DevXtechnic/RVX-UltraLock">DevXtechnic/RVX-UltraLock</a> — Focus-first YouTube build
+    </td>
+    <td align="center">
+      <a href="https://github.com/DevXtechnic/hyprland-cava-underlay">DevXtechnic/hyprland-cava-underlay</a> — Audio-reactive Hyprland
+    </td>
+  </tr>
+</table>
 
 ---
 
 ```bash
-jeevan@shivapuri:~$ ./contact.sh
+jeevan@arch:~$ ./contact.sh
 ```
 
 <div align="center">
@@ -171,5 +243,5 @@ jeevan@shivapuri:~$ ./contact.sh
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=80&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=80&section=footer&animation=fadeIn"/>
 </div>
