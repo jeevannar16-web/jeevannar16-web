@@ -37,9 +37,7 @@
 
 <!-- ====== STATS ====== -->
 <a id="stats"></a>
-<h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=800&color=00FF9C&center=true&vCenter=true&width=220&lines=%F0%9F%93%8A+STATS" alt="📊 STATS"/>
-</h2>
+<h2 align="center" style="color:#00ff9c;font-family:'Fira Code',monospace;font-size:22px;font-weight:600;">📊 STATS</h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #00ff9c55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
 jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
@@ -81,9 +79,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 
 <!-- ====== ABOUT ====== -->
 <a id="about"></a>
-<h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=800&color=89B4FA&center=true&vCenter=true&width=220&lines=%F0%9F%91%A4+ABOUT" alt="👤 ABOUT"/>
-</h2>
+<h2 align="center" style="color:#89b4fa;font-family:'Fira Code',monospace;font-size:22px;font-weight:600;">👤 ABOUT</h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #89b4fa55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
 jeevan@arch:~$ <span style="color:#a6e3a1;">cat about_me.txt</span>
@@ -178,9 +174,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat contribution_3d.log</span>
 
 <!-- ====== PROJECTS ====== -->
 <a id="projects"></a>
-<h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=800&color=F9E2AF&center=true&vCenter=true&width=270&lines=%F0%9F%9A%80+PROJECTS" alt="🚀 PROJECTS"/>
-</h2>
+<h2 align="center" style="color:#f9e2af;font-family:'Fira Code',monospace;font-size:22px;font-weight:600;">🚀 PROJECTS</h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f9e2af55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
 jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
@@ -260,9 +254,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat recent_stars.txt</span>
 
 <!-- ====== CONTACT ====== -->
 <a id="contact"></a>
-<h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=800&color=F38BA8&center=true&vCenter=true&width=240&lines=%F0%9F%93%AC+CONTACT" alt="📬 CONTACT"/>
-</h2>
+<h2 align="center" style="color:#f38ba8;font-family:'Fira Code',monospace;font-size:22px;font-weight:600;">📬 CONTACT</h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f38ba855;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
 jeevan@arch:~$ <span style="color:#a6e3a1;">./contact.sh</span>
