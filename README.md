@@ -6,13 +6,72 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3200&pause=700&color=00FF9C&center=true&vCenter=true&width=750&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows;Kitty+terminal+%7C+bash+%7C+VS+Code;Building+one+commit+at+a+time" alt="Typing SVG" />
 </div>
 
+<!-- quick links -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=jeevannar16-web&color=00ff9c&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/jeevannar16-web?style=flat-square&color=89b4fa&label=FOLLOWERS" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/jeevannar16-web?style=flat-square&color=f9e2af&label=STARS" alt="Stars"/>
+  <a href="#about"><img src="https://img.shields.io/badge/%F0%9F%91%A4_About-2c5364?style=for-the-badge"/></a>
+  <a href="#stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A_Stats-2c5364?style=for-the-badge"/></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Projects-2c5364?style=for-the-badge"/></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/%F0%9F%93%AC_Contact-2c5364?style=for-the-badge"/></a>
+  <a href="https://leetcode.com/u/jeevannar16-web/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+  <a href="https://huggingface.co/Jeevannar16"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
+  <a href="https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f"><img src="https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white"/></a>
 </div>
 
+<br>
+
+<div align="center">
+  <a href="https://github.com/jeevannar16-web">
+    <img src="https://komarev.com/ghpvc/?username=jeevannar16-web&color=00ff9c&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+  </a>
+  <a href="https://github.com/jeevannar16-web?tab=followers">
+    <img src="https://img.shields.io/github/followers/jeevannar16-web?style=flat-square&color=89b4fa&label=FOLLOWERS" alt="Followers"/>
+  </a>
+  <a href="https://github.com/jeevannar16-web?tab=stars">
+    <img src="https://img.shields.io/github/stars/jeevannar16-web?style=flat-square&color=f9e2af&label=STARS" alt="Stars"/>
+  </a>
+</div>
+
+<a id="stats"></a>
+
+```bash
+jeevan@arch:~$ ./stats.sh
+```
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+
+<br>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeevannar16-web&theme=tokyonight&hide_border=true" width="65%"/>
+</div>
+
+<br>
+
 ---
+
+<a id="about"></a>
 
 ```bash
 jeevan@arch:~$ cat about_me.txt
@@ -74,44 +133,6 @@ jeevan@arch:~$ ls ./tech_stack/
 ---
 
 ```bash
-jeevan@arch:~$ ./stats.sh
-```
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevannar16-web&theme=tokyonight" width="100%"/>
-
-<br>
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevannar16-web&theme=tokyonight" width="100%"/>
-    </td>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
-    </td>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeevannar16-web&theme=tokyonight&hide_border=true" width="65%"/>
-</div>
-
-<br>
-
----
-
-```bash
 jeevan@arch:~$ cat activity.log
 ```
 
@@ -142,6 +163,8 @@ jeevan@arch:~$ cat contribution_3d.log
 </div>
 
 ---
+
+<a id="projects"></a>
 
 ```bash
 jeevan@arch:~$ ls ./projects/
@@ -218,6 +241,8 @@ jeevan@arch:~$ cat recent_stars.txt
 </table>
 
 ---
+
+<a id="contact"></a>
 
 ```bash
 jeevan@arch:~$ ./contact.sh
