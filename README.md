@@ -128,15 +128,11 @@ jeevan@arch:~$ cat activity.log
 ---
 
 ```bash
-jeevan@arch:~$ cat snake.log
+jeevan@arch:~$ curl -s https://api.quotable.io/random | jq '.content'
 ```
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/dist/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/dist/github-snake.svg">
-    <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/dist/github-snake-dark.svg" width="100%"/>
-  </picture>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%" alt="Dev Quote"/>
 </div>
 
 ---
@@ -169,16 +165,12 @@ jeevan@arch:~$ ls ./projects/
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" align="center">
       <a href="https://github.com/jeevannar16-web/Java-class-11-">
         <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Java-class-11-&theme=tokyonight&hide_border=true" width="100%"/>
       </a>
     </td>
-    <td width="50%">
-      <a href="https://github.com/jeevannar16-web/c-plus-plus">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=c-plus-plus&theme=tokyonight&hide_border=true" width="100%"/>
-      </a>
-    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
@@ -239,6 +231,9 @@ jeevan@arch:~$ ./contact.sh
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevannar16@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevannar16-web/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/jeevannar16-web)
+[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@jeevannar16-web)
 
 </div>
 
