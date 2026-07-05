@@ -13,44 +13,60 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch top 3 repos and update README
+      - name: Fetch deployed repos and update README
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           USERNAME="${{ github.repository_owner }}"
 
-          # fetch repos sorted by stars, get top 3
+          # fetch all repos, pick top 3 with live site (homepage set)
           REPOS=$(curl -s -H "Authorization: token $GH_TOKEN" \
             "https://api.github.com/users/$USERNAME/repos?per_page=100&sort=stars&direction=desc" \
             | python3 -c "
           import sys, json
           repos = json.load(sys.stdin)
+          # exclude forks and the profile repo
           repos = [r for r in repos if not r['fork'] and r['name'] != '$USERNAME']
-          repos.sort(key=lambda r: r['stargazers_count'], reverse=True)
-          top = repos[:3]
+          # prefer repos with a homepage set (deployed site), then sort by stars
+          deployed = [r for r in repos if r.get('homepage')]
+          undeployed = [r for r in repos if not r.get('homepage')]
+          deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
+          undeployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
+          # take all deployed (up to 3), fill rest with top undeployed
+          top = (deployed + undeployed)[:3]
           for r in top:
-              print(r['name'])
+              homepage = r.get('homepage') or ''
+              print(f\"{r['name']}|{homepage}\")
           ")
 
           # generate pin card HTML
           CARDS=""
           COUNT=0
-          for REPO in $REPOS; do
+          for ENTRY in $REPOS; do
+            REPO=$(echo "$ENTRY" | cut -d'|' -f1)
+            URL=$(echo "$ENTRY" | cut -d'|' -f2)
             COUNT=$((COUNT + 1))
+
+            # deployed badge
+            BADGE=""
+            if [ -n "$URL" ]; then
+              BADGE="<br><sub><a href=\"$URL\">🔗 live site</a></sub>"
+            fi
+
             if [ $COUNT -le 2 ]; then
               CARDS="$CARDS
           <tr>
             <td width=\"50%\">
               <a href=\"https://github.com/$USERNAME/$REPO\">
                 <img src=\"https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=$USERNAME\&repo=$REPO\&theme=tokyonight\&hide_border=true\" width=\"100%\"/>
-              </a>
+              </a>$BADGE
             </td>"
             else
               CARDS="$CARDS
             <td width=\"50%\" align=\"center\">
               <a href=\"https://github.com/$USERNAME/$REPO\">
                 <img src=\"https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=$USERNAME\&repo=$REPO\&theme=tokyonight\&hide_border=true\" width=\"100%\"/>
-              </a>
+              </a>$BADGE
             </td>
           </tr>"
             fi
@@ -60,14 +76,10 @@ jobs:
             fi
           done
 
-          # wrap in table
           TABLE="<table>$CARDS
           </table>"
 
-          # escape for sed
           TABLE_ESC=$(printf '%s\n' "$TABLE" | sed 's/[\/&]/\\&/g')
-
-          # replace between markers
           sed -i '/<!-- PROJECTS:start -->/,/<!-- PROJECTS:end -->/c\<!-- PROJECTS:start -->\n'"$TABLE_ESC"'\n<!-- PROJECTS:end -->' README.md
 
       - name: Commit
