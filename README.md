@@ -109,10 +109,6 @@ jeevan@arch:~$ ./stats.sh
 
 <br>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jeevannar16-web&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=15" width="100%" alt="Trophy"/>
-</div>
-
 ---
 
 ```bash
