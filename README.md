@@ -38,17 +38,18 @@
 <!-- ====== STATS ====== -->
 <a id="stats"></a>
 <div align="center">
-  <svg width="50" height="24" viewBox="0 0 50 24">
-    <circle cx="25" cy="12" r="5" fill="#00ff9c" opacity="0.9">
-      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+  <svg width="200" height="50" viewBox="0 0 200 50">
+    <circle cx="28" cy="25" r="12" fill="#00ff9c" opacity="0.15">
+      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <line x1="10" y1="12" x2="18" y2="12" stroke="#00ff9c" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="32" y1="12" x2="40" y2="12" stroke="#00ff9c" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
+    <circle cx="28" cy="25" r="6" fill="#00ff9c" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#00ff9c" font-weight="bold">
+      ▸ you are in Stats
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </text>
   </svg>
 </div>
 <h2 align="center">
@@ -96,17 +97,18 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 <!-- ====== ABOUT ====== -->
 <a id="about"></a>
 <div align="center">
-  <svg width="50" height="24" viewBox="0 0 50 24">
-    <circle cx="25" cy="12" r="5" fill="#89b4fa" opacity="0.9">
-      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+  <svg width="200" height="50" viewBox="0 0 200 50">
+    <circle cx="28" cy="25" r="12" fill="#89b4fa" opacity="0.15">
+      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <line x1="10" y1="12" x2="18" y2="12" stroke="#89b4fa" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="32" y1="12" x2="40" y2="12" stroke="#89b4fa" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
+    <circle cx="28" cy="25" r="6" fill="#89b4fa" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#89b4fa" font-weight="bold">
+      ▸ you are in About
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </text>
   </svg>
 </div>
 <h2 align="center">
@@ -207,17 +209,18 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat contribution_3d.log</span>
 <!-- ====== PROJECTS ====== -->
 <a id="projects"></a>
 <div align="center">
-  <svg width="50" height="24" viewBox="0 0 50 24">
-    <circle cx="25" cy="12" r="5" fill="#f9e2af" opacity="0.9">
-      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+  <svg width="200" height="50" viewBox="0 0 200 50">
+    <circle cx="28" cy="25" r="12" fill="#f9e2af" opacity="0.15">
+      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <line x1="10" y1="12" x2="18" y2="12" stroke="#f9e2af" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="32" y1="12" x2="40" y2="12" stroke="#f9e2af" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
+    <circle cx="28" cy="25" r="6" fill="#f9e2af" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#f9e2af" font-weight="bold">
+      ▸ you are in Projects
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </text>
   </svg>
 </div>
 <h2 align="center">
@@ -303,17 +306,18 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat recent_stars.txt</span>
 <!-- ====== CONTACT ====== -->
 <a id="contact"></a>
 <div align="center">
-  <svg width="50" height="24" viewBox="0 0 50 24">
-    <circle cx="25" cy="12" r="5" fill="#f38ba8" opacity="0.9">
-      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+  <svg width="200" height="50" viewBox="0 0 200 50">
+    <circle cx="28" cy="25" r="12" fill="#f38ba8" opacity="0.15">
+      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <line x1="10" y1="12" x2="18" y2="12" stroke="#f38ba8" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="32" y1="12" x2="40" y2="12" stroke="#f38ba8" stroke-width="1.5" opacity="0.5">
-      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
-    </line>
+    <circle cx="28" cy="25" r="6" fill="#f38ba8" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#f38ba8" font-weight="bold">
+      ▸ you are in Contact
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </text>
   </svg>
 </div>
 <h2 align="center">
