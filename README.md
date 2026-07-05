@@ -73,13 +73,28 @@ jeevan@shivapuri:~$ ls ./tech_stack/
 jeevan@shivapuri:~$ ./stats.sh --theme=tokyonight
 ```
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+
+<br>
+
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="100%"/>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevannar16-web&theme=tokyonight" width="100%"/>
     </td>
     <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
     </td>
   </tr>
 </table>
@@ -102,6 +117,20 @@ jeevan@shivapuri:~$ cat contribution_3d.log
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+</div>
+
+---
+
+```bash
+jeevan@shivapuri:~$ cat snake.log
+```
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/dist/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/dist/github-snake.svg">
+    <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/dist/github-snake-dark.svg" width="100%"/>
+  </picture>
 </div>
 
 ---
