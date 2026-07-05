@@ -34,7 +34,6 @@ repos = json.loads(urllib.request.urlopen(req).read())
 # only repos with a homepage URL (live deployed site)
 deployed = [r for r in repos if r.get('homepage') and not r['fork'] and r['name'] != USERNAME]
 deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
-top = deployed[:3]
 
 def pin(repo, homepage):
     badge = f'<br><sub><a href="{homepage}">🔗 live site</a></sub>' if homepage else ''
@@ -45,25 +44,21 @@ def pin(repo, homepage):
               </a>{badge}'''
 
 rows = []
-if len(top) == 1:
-    rows.append(f'''          <tr>
-            <td width="50%">{pin(top[0]['name'], top[0]['homepage'])}</td>
+i = 0
+while i < len(deployed):
+    r1 = deployed[i]
+    if i + 1 < len(deployed):
+        r2 = deployed[i + 1]
+        rows.append(f'''          <tr>
+            <td width="50%">{pin(r1['name'], r1['homepage'])}</td>
+            <td width="50%">{pin(r2['name'], r2['homepage'])}</td>
+          </tr>''')
+    else:
+        rows.append(f'''          <tr>
+            <td width="50%">{pin(r1['name'], r1['homepage'])}</td>
             <td width="50%"></td>
           </tr>''')
-elif len(top) == 2:
-    rows.append(f'''          <tr>
-            <td width="50%">{pin(top[0]['name'], top[0]['homepage'])}</td>
-            <td width="50%">{pin(top[1]['name'], top[1]['homepage'])}</td>
-          </tr>''')
-elif len(top) == 3:
-    rows.append(f'''          <tr>
-            <td width="50%">{pin(top[0]['name'], top[0]['homepage'])}</td>
-            <td width="50%">{pin(top[1]['name'], top[1]['homepage'])}</td>
-          </tr>''')
-    rows.append(f'''          <tr>
-            <td width="50%" align="center">{pin(top[2]['name'], top[2]['homepage'])}</td>
-            <td width="50%"></td>
-          </tr>''')
+    i += 2
 
 table = f'''<table>
 {chr(10).join(rows)}
