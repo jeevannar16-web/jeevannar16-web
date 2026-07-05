@@ -19,62 +19,71 @@ jobs:
         run: |
           USERNAME="${{ github.repository_owner }}"
 
-          # fetch repos that have a live site URL set (homepage field)
-          REPOS=$(curl -s -H "Authorization: token $GH_TOKEN" \
-            "https://api.github.com/users/$USERNAME/repos?per_page=100&sort=stars&direction=desc" \
-            | python3 -c "
-          import sys, json
-          repos = json.load(sys.stdin)
-          # only repos with a homepage URL (live deployed site), exclude forks and profile repo
-          deployed = [r for r in repos if r.get('homepage') and not r['fork'] and r['name'] != '$USERNAME']
-          deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
-          top = deployed[:3]
-          for r in top:
-              print(f\"{r['name']}|{r['homepage']}\")
-          ")
+          python3 << 'PYEOF'
+import os, json, urllib.request
 
-          # generate pin card HTML
-          CARDS=""
-          COUNT=0
-          for ENTRY in $REPOS; do
-            REPO=$(echo "$ENTRY" | cut -d'|' -f1)
-            URL=$(echo "$ENTRY" | cut -d'|' -f2)
-            COUNT=$((COUNT + 1))
+USERNAME = os.environ['GITHUB_REPOSITORY_OWNER']
+TOKEN = os.environ.get('GH_TOKEN', '')
 
-            # deployed badge
-            BADGE=""
-            if [ -n "$URL" ]; then
-              BADGE="<br><sub><a href=\"$URL\">🔗 live site</a></sub>"
-            fi
+req = urllib.request.Request(
+    f'https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=stars&direction=desc',
+    headers={'Authorization': f'token {TOKEN}', 'User-Agent': 'GitHub-Actions'}
+)
+repos = json.loads(urllib.request.urlopen(req).read())
 
-            if [ $COUNT -le 2 ]; then
-              CARDS="$CARDS
-          <tr>
-            <td width=\"50%\">
-              <a href=\"https://github.com/$USERNAME/$REPO\">
-                <img src=\"https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=$USERNAME\&repo=$REPO\&theme=tokyonight\&hide_border=true\" width=\"100%\"/>
-              </a>$BADGE
-            </td>"
-            else
-              CARDS="$CARDS
-            <td width=\"50%\" align=\"center\">
-              <a href=\"https://github.com/$USERNAME/$REPO\">
-                <img src=\"https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=$USERNAME\&repo=$REPO\&theme=tokyonight\&hide_border=true\" width=\"100%\"/>
-              </a>$BADGE
-            </td>
-          </tr>"
-            fi
-            if [ $COUNT -eq 2 ]; then
-              CARDS="$CARDS
-          </tr>"
-            fi
-          done
+# only repos with a homepage URL (live deployed site)
+deployed = [r for r in repos if r.get('homepage') and not r['fork'] and r['name'] != USERNAME]
+deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
+top = deployed[:3]
 
-          TABLE="<table>$CARDS
-          </table>"
+def pin(repo, homepage):
+    badge = f'<br><sub><a href="{homepage}">🔗 live site</a></sub>' if homepage else ''
+    url = f'https://github.com/{USERNAME}/{repo}'
+    img = f'https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=tokyonight&hide_border=true'
+    return f'''              <a href="{url}">
+                <img src="{img}" width="100%"/>
+              </a>{badge}'''
 
-          TABLE_ESC=$(printf '%s\n' "$TABLE" | sed 's/[\/&]/\\&/g')
-          sed -i '/<!-- PROJECTS:start -->/,/<!-- PROJECTS:end -->/c\<!-- PROJECTS:start -->\n'"$TABLE_ESC"'\n<!-- PROJECTS:end -->' README.md
+rows = []
+if len(top) == 1:
+    rows.append(f'''          <tr>
+            <td width="50%">{pin(top[0]['name'], top[0]['homepage'])}</td>
+            <td width="50%"></td>
+          </tr>''')
+elif len(top) == 2:
+    rows.append(f'''          <tr>
+            <td width="50%">{pin(top[0]['name'], top[0]['homepage'])}</td>
+            <td width="50%">{pin(top[1]['name'], top[1]['homepage'])}</td>
+          </tr>''')
+elif len(top) == 3:
+    rows.append(f'''          <tr>
+            <td width="50%">{pin(top[0]['name'], top[0]['homepage'])}</td>
+            <td width="50%">{pin(top[1]['name'], top[1]['homepage'])}</td>
+          </tr>''')
+    rows.append(f'''          <tr>
+            <td width="50%" align="center">{pin(top[2]['name'], top[2]['homepage'])}</td>
+            <td width="50%"></td>
+          </tr>''')
+
+table = f'''<table>
+{chr(10).join(rows)}
+        </table>''' if rows else '<p align="center"><i>No deployed repos yet — set a Website URL in repo About to appear here.</i></p>'
+
+with open('README.md', 'r') as f:
+    content = f.read()
+
+marker = '<!-- PROJECTS:start -->'
+end_marker = '<!-- PROJECTS:end -->'
+start = content.find(marker)
+end = content.find(end_marker)
+if start != -1 and end != -1:
+    new_content = content[:start + len(marker)] + '\n' + table + '\n' + content[end:]
+    with open('README.md', 'w') as f:
+        f.write(new_content)
+    print('README.md updated')
+else:
+    print('Markers not found')
+PYEOF
 
       - name: Commit
         run: |
