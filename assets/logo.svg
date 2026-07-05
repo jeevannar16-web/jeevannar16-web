@@ -1,0 +1,47 @@
+<svg width="750" height="150" viewBox="0 0 750 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff9c"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="750" height="150" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="748" height="148" rx="14" fill="none" stroke="#00ff9c" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- terminal dots -->
+  <circle cx="28" cy="28" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="28" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="28" r="6" fill="#27c93f"/>
+
+  <!-- prompt line -->
+  <text x="30" y="70" font-family="Fira Code, monospace" font-size="20" fill="#8be9fd">jeevan@home</text>
+  <text x="185" y="70" font-family="Fira Code, monospace" font-size="20" fill="#f8f8f2">:~$</text>
+
+  <!-- typed name with blinking cursor -->
+  <text x="225" y="70" font-family="Fira Code, monospace" font-size="26" font-weight="bold" fill="url(#txt)">
+    whoami
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+  </text>
+  <rect x="368" y="52" width="12" height="24" fill="#00ff9c">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="30" y="110" font-family="Fira Code, monospace" font-size="24" font-weight="bold" fill="#f8f8f2">
+    JEEVAN
+    <animate attributeName="opacity" values="0;0;1" dur="1.8s" begin="0.8s" fill="freeze"/>
+  </text>
+  <text x="165" y="110" font-family="Fira Code, monospace" font-size="15" fill="#8be9fd">
+    — learning &amp; building, one commit at a time
+    <animate attributeName="opacity" values="0;0;1" dur="2.4s" begin="1.4s" fill="freeze"/>
+  </text>
+
+  <text x="30" y="132" font-family="Fira Code, monospace" font-size="12" fill="#6272a4">
+    Grade XI · Computer Engineering · Homebase: Kathmandu, Nepal
+    <animate attributeName="opacity" values="0;0;1" dur="2.6s" begin="2s" fill="freeze"/>
+  </text>
+</svg>
