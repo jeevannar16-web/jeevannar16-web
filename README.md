@@ -95,7 +95,7 @@ jeevan@arch:~$ ./stats.sh
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
     </td>
     <td width="50%">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
@@ -159,24 +159,24 @@ jeevan@arch:~$ ls ./projects/
   <tr>
     <td width="50%">
       <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="100%"/>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="100%"/>
       </a>
     </td>
     <td width="50%">
       <a href="https://github.com/jeevannar16-web/Fitness-Hub">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Fitness-Hub&theme=tokyonight&hide_border=true" width="100%"/>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Fitness-Hub&theme=tokyonight&hide_border=true" width="100%"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/jeevannar16-web/Java-class-11-">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Java-class-11-&theme=tokyonight&hide_border=true" width="100%"/>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Java-class-11-&theme=tokyonight&hide_border=true" width="100%"/>
       </a>
     </td>
     <td width="50%">
       <a href="https://github.com/jeevannar16-web/c-plus-plus">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=c-plus-plus&theme=tokyonight&hide_border=true" width="100%"/>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=c-plus-plus&theme=tokyonight&hide_border=true" width="100%"/>
       </a>
     </td>
   </tr>
