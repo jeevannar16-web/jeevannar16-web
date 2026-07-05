@@ -37,6 +37,20 @@
 
 <!-- ====== STATS ====== -->
 <a id="stats"></a>
+<div align="center">
+  <svg width="50" height="24" viewBox="0 0 50 24">
+    <circle cx="25" cy="12" r="5" fill="#00ff9c" opacity="0.9">
+      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="10" y1="12" x2="18" y2="12" stroke="#00ff9c" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="32" y1="12" x2="40" y2="12" stroke="#00ff9c" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+  </svg>
+</div>
 <h2 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=00FF9C&center=true&vCenter=true&width=200&lines=%F0%9F%93%8A+STATS" alt="STATS"/>
 </h2>
@@ -81,6 +95,20 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 
 <!-- ====== ABOUT ====== -->
 <a id="about"></a>
+<div align="center">
+  <svg width="50" height="24" viewBox="0 0 50 24">
+    <circle cx="25" cy="12" r="5" fill="#89b4fa" opacity="0.9">
+      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="10" y1="12" x2="18" y2="12" stroke="#89b4fa" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="32" y1="12" x2="40" y2="12" stroke="#89b4fa" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+  </svg>
+</div>
 <h2 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=89B4FA&center=true&vCenter=true&width=200&lines=%F0%9F%91%A4+ABOUT" alt="ABOUT"/>
 </h2>
@@ -178,6 +206,20 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat contribution_3d.log</span>
 
 <!-- ====== PROJECTS ====== -->
 <a id="projects"></a>
+<div align="center">
+  <svg width="50" height="24" viewBox="0 0 50 24">
+    <circle cx="25" cy="12" r="5" fill="#f9e2af" opacity="0.9">
+      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="10" y1="12" x2="18" y2="12" stroke="#f9e2af" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="32" y1="12" x2="40" y2="12" stroke="#f9e2af" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+  </svg>
+</div>
 <h2 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=F9E2AF&center=true&vCenter=true&width=250&lines=%F0%9F%9A%80+PROJECTS" alt="PROJECTS"/>
 </h2>
@@ -260,6 +302,20 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat recent_stars.txt</span>
 
 <!-- ====== CONTACT ====== -->
 <a id="contact"></a>
+<div align="center">
+  <svg width="50" height="24" viewBox="0 0 50 24">
+    <circle cx="25" cy="12" r="5" fill="#f38ba8" opacity="0.9">
+      <animate attributeName="r" values="5;9;5" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="10" y1="12" x2="18" y2="12" stroke="#f38ba8" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="32" y1="12" x2="40" y2="12" stroke="#f38ba8" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+  </svg>
+</div>
 <h2 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=F38BA8&center=true&vCenter=true&width=220&lines=%F0%9F%93%AC+CONTACT" alt="CONTACT"/>
 </h2>
