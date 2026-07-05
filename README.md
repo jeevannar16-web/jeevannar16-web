@@ -20,14 +20,14 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/jeevannar16-web">
-    <img src="https://komarev.com/ghpvc/?username=jeevannar16-web&color=00ff9c&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
-  </a>
   <a href="https://github.com/jeevannar16-web?tab=followers">
     <img src="https://img.shields.io/github/followers/jeevannar16-web?style=flat-square&color=89b4fa&label=FOLLOWERS" alt="Followers"/>
   </a>
   <a href="https://github.com/jeevannar16-web?tab=repositories&q=&type=source&sort=stargazers">
     <img src="https://img.shields.io/github/stars/jeevannar16-web?style=flat-square&color=f9e2af&label=STARS" alt="Stars"/>
+  </a>
+  <a href="https://github.com/jeevannar16-web?tab=repositories">
+    <img src="https://img.shields.io/badge/REPOS-8?style=flat-square&color=00ff9c" alt="Repos"/>
   </a>
 </div>
 
