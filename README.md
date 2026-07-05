@@ -37,23 +37,8 @@
 
 <!-- ====== STATS ====== -->
 <a id="stats"></a>
-<div align="center">
-  <svg width="200" height="50" viewBox="0 0 200 50">
-    <circle cx="28" cy="25" r="12" fill="#00ff9c" opacity="0.15">
-      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="28" cy="25" r="6" fill="#00ff9c" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#00ff9c" font-weight="bold">
-      ▸ you are in Stats
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-    </text>
-  </svg>
-</div>
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=00FF9C&center=true&vCenter=true&width=200&lines=%F0%9F%93%8A+STATS" alt="STATS"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=2500&pause=2000&color=00FF9C&center=true&vCenter=true&width=200&lines=%F0%9F%93%8A+STATS" alt="📊 STATS"/>
 </h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #00ff9c55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
@@ -96,23 +81,8 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 
 <!-- ====== ABOUT ====== -->
 <a id="about"></a>
-<div align="center">
-  <svg width="200" height="50" viewBox="0 0 200 50">
-    <circle cx="28" cy="25" r="12" fill="#89b4fa" opacity="0.15">
-      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="28" cy="25" r="6" fill="#89b4fa" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#89b4fa" font-weight="bold">
-      ▸ you are in About
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-    </text>
-  </svg>
-</div>
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=89B4FA&center=true&vCenter=true&width=200&lines=%F0%9F%91%A4+ABOUT" alt="ABOUT"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=2500&pause=2000&color=89B4FA&center=true&vCenter=true&width=200&lines=%F0%9F%91%A4+ABOUT" alt="👤 ABOUT"/>
 </h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #89b4fa55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
@@ -208,23 +178,8 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat contribution_3d.log</span>
 
 <!-- ====== PROJECTS ====== -->
 <a id="projects"></a>
-<div align="center">
-  <svg width="200" height="50" viewBox="0 0 200 50">
-    <circle cx="28" cy="25" r="12" fill="#f9e2af" opacity="0.15">
-      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="28" cy="25" r="6" fill="#f9e2af" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#f9e2af" font-weight="bold">
-      ▸ you are in Projects
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-    </text>
-  </svg>
-</div>
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=F9E2AF&center=true&vCenter=true&width=250&lines=%F0%9F%9A%80+PROJECTS" alt="PROJECTS"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=2500&pause=2000&color=F9E2AF&center=true&vCenter=true&width=250&lines=%F0%9F%9A%80+PROJECTS" alt="🚀 PROJECTS"/>
 </h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f9e2af55;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
@@ -305,23 +260,8 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat recent_stars.txt</span>
 
 <!-- ====== CONTACT ====== -->
 <a id="contact"></a>
-<div align="center">
-  <svg width="200" height="50" viewBox="0 0 200 50">
-    <circle cx="28" cy="25" r="12" fill="#f38ba8" opacity="0.15">
-      <animate attributeName="r" values="12;22;12" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.03;0.15" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="28" cy="25" r="6" fill="#f38ba8" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="50" y="30" font-family="Fira Code, monospace" font-size="14" fill="#f38ba8" font-weight="bold">
-      ▸ you are in Contact
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-    </text>
-  </svg>
-</div>
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=1&pause=99999&color=F38BA8&center=true&vCenter=true&width=220&lines=%F0%9F%93%AC+CONTACT" alt="CONTACT"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=2500&pause=2000&color=F38BA8&center=true&vCenter=true&width=220&lines=%F0%9F%93%AC+CONTACT" alt="📬 CONTACT"/>
 </h2>
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f38ba855;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
