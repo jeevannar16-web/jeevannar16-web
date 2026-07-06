@@ -205,41 +205,6 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ps aux | grep current_focus</span>
 | 🟢 | Maintaining triple-boot Arch / Ubuntu / Windows |
 | 🟡 | Exploring Linux internals & shell scripting |
 
----
-
-<pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f38ba855;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
-jeevan@arch:~$ <span style="color:#a6e3a1;">cat recent_stars.txt</span>
-</pre>
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/DevXtechnic/KinaHub">DevXtechnic/KinaHub</a> — AI-powered e-commerce & CRM
-    </td>
-    <td align="center">
-      <a href="https://github.com/DevXtechnic/Neopluse">DevXtechnic/Neopluse</a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/DevXtechnic/DevXtechnic.github.io">DevXtechnic/DevXtechnic.github.io</a> — Personal website "The Aura"
-    </td>
-    <td align="center">
-      <a href="https://github.com/DevXtechnic/Ytdaily">DevXtechnic/Ytdaily</a> — YouTube feed downloader
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/DevXtechnic/RVX-UltraLock">DevXtechnic/RVX-UltraLock</a> — Focus-first YouTube build
-    </td>
-    <td align="center">
-      <a href="https://github.com/DevXtechnic/hyprland-cava-underlay">DevXtechnic/hyprland-cava-underlay</a> — Audio-reactive Hyprland
-    </td>
-  </tr>
-</table>
-
----
-
 <!-- ====== CONTACT ====== -->
 <a id="contact"></a>
 <h2 align="center" style="color:#f38ba8;font-family:'Fira Code',monospace;font-size:22px;font-weight:600;">📬 CONTACT</h2>
