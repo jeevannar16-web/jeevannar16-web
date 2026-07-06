@@ -181,14 +181,9 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
 </pre>
 
 <!-- PROJECTS:start -->
-<table>
-          <tr>
-            <td width="50%">              <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website">
-                <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="100%"/>
-              </a><br><sub><a href="https://ojt-ecommerce-website.onrender.com">🔗 live site</a></sub></td>
-            <td width="50%"></td>
-          </tr>
-        </table>
+<a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="100%"/>
+</a><br><sub><a href="https://ojt-ecommerce-website.onrender.com">🔗 live site</a></sub>
 <!-- PROJECTS:end -->
 
 ---
