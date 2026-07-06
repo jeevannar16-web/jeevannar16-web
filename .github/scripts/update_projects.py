@@ -16,32 +16,15 @@ def card(repo, homepage):
     badge = f'<br><sub><a href="{homepage}">🔗 live site</a></sub>' if homepage else ''
     url = f'https://github.com/{USERNAME}/{repo}'
     img = f'https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=tokyonight&hide_border=true'
-    return f'''            <td align="center">
-              <a href="{url}">
-                <img src="{img}" width="100%"/>
-              </a>{badge}
-            </td>'''
+    return f'''      <p align="center">
+        <a href="{url}">
+          <img src="{img}" width="520"/>
+        </a>{badge}
+      </p>'''
 
-rows = []
-i = 0
-while i < len(deployed):
-    r1 = deployed[i]
-    if i + 1 < len(deployed):
-        r2 = deployed[i + 1]
-        rows.append(f'''          <tr>
-            {card(r1['name'], r1['homepage'])}
-            {card(r2['name'], r2['homepage'])}
-          </tr>''')
-    else:
-        rows.append(f'''          <tr>
-            {card(r1['name'], r1['homepage'])}
-            <td width="50%"></td>
-          </tr>''')
-    i += 2
-
-content_block = f'''<table>
-{chr(10).join(rows)}
-        </table>''' if rows else '<p align="center"><i>No deployed repos yet — set a Website URL in repo About to appear here.</i></p>'
+content_block = '\n'.join(card(r['name'], r['homepage']) for r in deployed)
+if not content_block:
+    content_block = '<p align="center"><i>No deployed repos yet — set a Website URL in repo About to appear here.</i></p>'
 
 with open('README.md', 'r') as f:
     content = f.read()
