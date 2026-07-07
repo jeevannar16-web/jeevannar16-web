@@ -70,7 +70,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 </table>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeevannar16-web&theme=tokyonight&hide_border=true" width="65%"/>
+  <img src="https://streak-stats.demolab.com/?user=jeevannar16-web&theme=tokyonight&hide_border=true" width="65%"/>
 </div>
 
 <br>
