@@ -85,7 +85,15 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 jeevan@arch:~$ <span style="color:#a6e3a1;">cat about_me.txt</span>
 </pre>
 
-I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace. Currently focused on deepening intermediate **JavaScript**, building backend **APIs with Python & Django**, and connecting them to **SQL** databases. I run a **triple-boot Arch / Ubuntu / Windows** setup and study **Computer Engineering** at Shivapuri Secondary School (Grade XI).
+<div align="center">
+  <table style="background:#1e1e2e;border:1.5px solid #89b4fa55;border-radius:12px;padding:20px;width:90%;">
+    <tr>
+      <td style="padding:20px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:15px;line-height:1.7;">
+        I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace. Currently focused on deepening intermediate <strong style="color:#f9e2af;">JavaScript</strong>, building backend <strong style="color:#89b4fa;">APIs with Python & Django</strong>, and connecting them to <strong style="color:#a6e3a1;">SQL</strong> databases. I run a <strong style="color:#f38ba8;">triple-boot Arch / Ubuntu / Windows</strong> setup and study <strong style="color:#94e2d5;">Computer Engineering</strong> at Shivapuri Secondary School (Grade XI).
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -93,16 +101,42 @@ I enjoy building clean, efficient systems and turning logic into working softwar
 jeevan@arch:~$ <span style="color:#a6e3a1;">fastfetch</span>
 </pre>
 
-| | |
-|---|---|
-| **OS** | Arch / Ubuntu / Windows (triple-boot) |
-| **School** | Shivapuri Secondary School |
-| **Grade** | XI — Computer Engineering |
-| **Location** | Kathmandu, Nepal |
-| **Shell** | bash |
-| **Terminal** | Kitty |
-| **Editor** | VS Code |
-| **Status** | 🟢 building something |
+<div align="center">
+  <table style="background:#1e1e2e;border:1.5px solid #f5c2e755;border-radius:12px;width:80%;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;">
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">OS</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Arch / Ubuntu / Windows <span style="color:#585b70;font-size:12px;">(triple-boot)</span></td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">School</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Shivapuri Secondary School</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">Grade</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">XI — Computer Engineering</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">Location</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Kathmandu, Nepal</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">Shell</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">bash</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">Terminal</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Kitty</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">Editor</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">VS Code</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;color:#89b4fa;font-weight:600;border-right:1px solid #313244;">Status</td>
+      <td style="padding:8px 16px;color:#a6e3a1;">🟢 building something</td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -110,33 +144,38 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">fastfetch</span>
 jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./tech_stack/</span>
 </pre>
 
-**Frontend**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Backend & Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-**Database**
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Systems & Tools**
-
-![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kitty](https://img.shields.io/badge/Kitty-1e1e2e?style=for-the-badge&logo=kitty&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+<div align="center">
+  <table style="background:#1e1e2e;border:1.5px solid #f9e2af55;border-radius:12px;width:90%;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;">
+    <tr><td style="padding:16px 20px;">
+      <p style="color:#f9e2af;font-weight:600;margin:0 0 8px 0;">Frontend</p>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+    </td></tr>
+    <tr><td style="padding:8px 20px;">
+      <p style="color:#89b4fa;font-weight:600;margin:0 0 8px 0;">Backend & Languages</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+      <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+    </td></tr>
+    <tr><td style="padding:8px 20px;">
+      <p style="color:#a6e3a1;font-weight:600;margin:0 0 8px 0;">Database</p>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+    </td></tr>
+    <tr><td style="padding:8px 20px 16px 20px;">
+      <p style="color:#f5c2e7;font-weight:600;margin:0 0 8px 0;">Systems & Tools</p>
+      <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kitty-1e1e2e?style=for-the-badge&logo=kitty&logoColor=white"/>
+    </td></tr>
+  </table>
+</div>
 
 ---
 
@@ -153,7 +192,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">cat activity.log</span>
 ---
 
 <pre align="center" style="background:#1e1e2e;color:#89b4fa;padding:10px 22px;border-radius:12px;border:1.5px solid #f5c2e755;font-family:'Fira Code',monospace;font-size:14px;letter-spacing:0.5px;">
-jeevan@arch:~$ <span style="color:#a6e3a1;">curl -s https://api.quotable.io/random | jq '.content'</span>
+jeevan@arch:~$ <span style="color:#a6e3a1;">fortune | cowsay -f tux</span>
 </pre>
 
 <div align="center">
@@ -181,11 +220,11 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
 </pre>
 
 <!-- PROJECTS:start -->
-      <p align="center">
-        <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website">
-          <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="520"/>
-        </a><br><sub><a href="https://ojt-ecommerce-website.onrender.com">🔗 live site</a></sub>
-      </p>
+
+[<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
+
+[🔗 live site](https://ojt-ecommerce-website.onrender.com)
+
 <!-- PROJECTS:end -->
 
 ---
@@ -194,13 +233,34 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
 jeevan@arch:~$ <span style="color:#a6e3a1;">ps aux | grep current_focus</span>
 </pre>
 
-| | Task |
-|:---:|:---|
-| 🟢 | Deepening intermediate JavaScript logic |
-| 🟢 | Building backend APIs with Python & Django |
-| 🟢 | Connecting APIs to SQL databases |
-| 🟢 | Maintaining triple-boot Arch / Ubuntu / Windows |
-| 🟡 | Exploring Linux internals & shell scripting |
+<div align="center">
+  <table style="background:#1e1e2e;border:1.5px solid #a6e3a155;border-radius:12px;width:85%;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;">
+    <tr>
+      <th style="padding:10px 16px;color:#a6e3a1;font-weight:600;border-bottom:1px solid #313244;text-align:center;">Status</th>
+      <th style="padding:10px 16px;color:#a6e3a1;font-weight:600;border-bottom:1px solid #313244;text-align:left;">Task</th>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;text-align:center;color:#a6e3a1;">🟢</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Deepening intermediate JavaScript logic</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;text-align:center;color:#a6e3a1;">🟢</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Building backend APIs with Python & Django</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;text-align:center;color:#a6e3a1;">🟢</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Connecting APIs to SQL databases</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;text-align:center;color:#a6e3a1;">🟢</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Maintaining triple-boot Arch / Ubuntu / Windows</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;text-align:center;color:#f9e2af;">🟡</td>
+      <td style="padding:8px 16px;color:#cdd6f4;">Exploring Linux internals & shell scripting</td>
+    </tr>
+  </table>
+</div>
 
 <!-- ====== CONTACT ====== -->
 <a id="contact"></a>

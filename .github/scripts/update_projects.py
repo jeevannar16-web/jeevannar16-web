@@ -13,7 +13,7 @@ deployed = [r for r in repos if r.get('homepage') and not r['fork'] and r['name'
 deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
 
 def card(repo, homepage):
-    badge = f'\n[🔗 live site]({homepage})' if homepage else ''
+    badge = f'\n\n[🔗 live site]({homepage})' if homepage else ''
     url = f'https://github.com/{USERNAME}/{repo}'
     img = f'https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=tokyonight&hide_border=true'
     return f'''
