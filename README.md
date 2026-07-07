@@ -221,10 +221,10 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
 
 <!-- PROJECTS:start -->
 
+
 [<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
 [🔗 live site](https://ojt-ecommerce-website.onrender.com)
-
 <!-- PROJECTS:end -->
 
 ---
