@@ -13,18 +13,16 @@ deployed = [r for r in repos if r.get('homepage') and not r['fork'] and r['name'
 deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
 
 def card(repo, homepage):
-    badge = f'<br><sub><a href="{homepage}">🔗 live site</a></sub>' if homepage else ''
+    badge = f'\n[🔗 live site]({homepage})' if homepage else ''
     url = f'https://github.com/{USERNAME}/{repo}'
     img = f'https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={USERNAME}&repo={repo}&theme=tokyonight&hide_border=true'
-    return f'''      <p align="center">
-        <a href="{url}">
-          <img src="{img}" width="520"/>
-        </a>{badge}
-      </p>'''
+    return f'''
+
+[<img src="{img}" width="520"/>]({url}){badge}'''
 
 content_block = '\n'.join(card(r['name'], r['homepage']) for r in deployed)
 if not content_block:
-    content_block = '<p align="center"><i>No deployed repos yet — set a Website URL in repo About to appear here.</i></p>'
+    content_block = '\n\n_No deployed repos yet — set a Website URL in repo About to appear here._\n'
 
 with open('README.md', 'r') as f:
     content = f.read()
