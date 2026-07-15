@@ -43,17 +43,17 @@
 jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 </pre>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
 
 <br>
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=pie&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=pie&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
     </td>
   </tr>
 </table>
@@ -61,10 +61,10 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
     </td>
   </tr>
 </table>
@@ -222,7 +222,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
 <!-- PROJECTS:start -->
 
 
-[<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
+[<img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
 [🔗 live site](https://ojt-ecommerce-website.onrender.com)
 <!-- PROJECTS:end -->
