@@ -43,14 +43,14 @@
 jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 </pre>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="100%"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
 
 <br>
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" width="100%"/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
     </td>
     <td width="50%">
       <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=pie&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
