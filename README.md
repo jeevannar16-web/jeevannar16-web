@@ -43,17 +43,17 @@
 jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 </pre>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="100%"/>
 
 <br>
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=pie&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
     </td>
   </tr>
 </table>
@@ -64,7 +64,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
       <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jeevannar16-web&theme=tokyonight" width="100%"/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevannar16-web&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
     </td>
   </tr>
 </table>
