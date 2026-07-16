@@ -225,9 +225,14 @@ jeevan@arch:~$ ls ./projects/
 
 <!-- PROJECTS:start -->
 
+
 [<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
 [🔗 live site](https://ojt-ecommerce-website.onrender.com)
+
+[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="520"/>](https://github.com/jeevannar16-web/OS-installation)
+
+[🔗 live site](https://os-installation.vercel.app)
 <!-- PROJECTS:end -->
 
 <br>
