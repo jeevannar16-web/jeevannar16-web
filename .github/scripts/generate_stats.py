@@ -153,17 +153,17 @@ def fetch_contributions():
         else:
             log(f"  GraphQL failed: {data}")
 
-    # Method 2: Scrape profile page
-    log("  Scraping profile page...")
+    # Method 2: Scrape the /users/{login}/contributions page
+    log("  Scraping contributions page...")
     import re
-    html = curl_html(f"https://github.com/{USERNAME}")
+    html = curl_html(f"https://github.com/users/{USERNAME}/contributions")
     if not html:
         log("  Scrape failed: no HTML")
         return 0, 0, 0
 
     match = re.search(r'(\d[\d,]*)\s*contributions?\s*in\s*the\s*last\s*year', html, re.I)
     total = int(match.group(1).replace(',', '')) if match else 0
-    cal_data = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*data-count="(\d+)"', html)
+    cal_data = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*data-level="(\d+)"', html)
     days = {d: int(c) for d, c in cal_data}
     current, longest = calc_streaks(days) if days else (0, 0)
     log(f"  Scrape OK: {total} contributions, streak: {current}/{longest}")
@@ -289,7 +289,7 @@ def main():
     stats = {
         "name": profile.get("name") or USERNAME,
         "stars": total_stars,
-        "commits": total_commits,
+        "commits": total_contribs if total_contribs > 0 else total_commits,
         "prs": total_prs,
         "issues": total_issues,
         "repos": profile.get("public_repos", len(repos)),
