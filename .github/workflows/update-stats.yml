@@ -18,14 +18,26 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Debug token & API access
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Token length: ${#GH_TOKEN}"
+          echo "Testing REST API..."
+          curl -s -w "\nHTTP %{http_code}" "https://api.github.com/user" -H "Authorization: token $GH_TOKEN" | head -5
+          echo ""
+          echo "Testing GraphQL..."
+          curl -s -X POST "https://api.github.com/graphql" \
+            -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"query":"{ viewer { login } }"}' | head -3
+
       - name: Generate stats from GitHub API
         env:
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Token length: ${#GH_TOKEN}"
-          python .github/scripts/generate_stats.py
+        run: python .github/scripts/generate_stats.py
 
       - name: Update project cards
         env:
@@ -33,6 +45,17 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/update_projects.py
+
+      - name: Verify generated SVGs
+        run: |
+          echo "=== github-stats.svg ==="
+          head -3 stats/github-stats.svg
+          echo ""
+          echo "=== streak.svg ==="
+          head -3 stats/streak.svg
+          echo ""
+          echo "=== top-langs.svg ==="
+          head -3 stats/top-langs.svg
 
       - name: Commit and push
         run: |
