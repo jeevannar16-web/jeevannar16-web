@@ -225,27 +225,9 @@ jeevan@arch:~$ ls ./projects/
 
 <!-- PROJECTS:start -->
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website">
-        <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="100%"/>
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/jeevannar16-web/Fitness-Hub">
-        <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Fitness-Hub.svg" width="100%"/>
-      </a>
-    </td>
-  </tr>
-</table>
+[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
-<div align="center">
-
-[🔗 OJT Ecommerce — Live Site](https://ojt-ecommerce-website.onrender.com) &nbsp;&nbsp;|&nbsp;&nbsp; [🔗 Fitness Hub — Django Platform](https://github.com/jeevannar16-web/Fitness-Hub)
-
-</div>
-
+[🔗 live site](https://ojt-ecommerce-website.onrender.com)
 <!-- PROJECTS:end -->
 
 <br>
