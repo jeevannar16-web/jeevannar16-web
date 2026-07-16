@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Update README.md projects section with self-hosted repo cards."""
+"""Update README.md projects section with self-hosted repo cards.
+Uses curl for API calls (reliable in CI)."""
 
 import os
 import json
-import urllib.request
+import subprocess
 
-USERNAME = os.environ['GITHUB_REPOSITORY_OWNER']
-TOKEN = os.environ.get('GH_TOKEN', os.environ.get('GITHUB_TOKEN', ''))
+USERNAME = os.environ.get("GITHUB_REPOSITORY_OWNER", "jeevannar16-web")
+TOKEN = os.environ.get("GH_TOKEN", os.environ.get("GITHUB_TOKEN", ""))
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-CARDS_DIR = os.path.join(SCRIPT_DIR, '..', '..', 'stats', 'repos')
+CARDS_DIR = os.path.join(SCRIPT_DIR, "..", "..", "stats", "repos")
+README = os.path.join(SCRIPT_DIR, "..", "..", "README.md")
 
 TOKYO = {
     "card": "#181825", "border": "#313244", "blue": "#89b4fa",
@@ -20,14 +22,25 @@ LANG_COLORS = {
     "Shell": "#4EAA25", "TypeScript": "#3178C6",
 }
 
-HEADERS = {"User-Agent": "GitHub-Actions", "Accept": "application/vnd.github.v3+json"}
-if TOKEN:
-    HEADERS["Authorization"] = f"token {TOKEN}"
+
+def log(msg):
+    print(msg, flush=True)
 
 
-def api_get(url):
-    req = urllib.request.Request(url, headers=HEADERS)
-    return json.loads(urllib.request.urlopen(req, timeout=15).read())
+def curl_get(url):
+    cmd = ["curl", "-s", "-f", "--max-time", "20"]
+    if TOKEN:
+        cmd += ["-H", f"Authorization: token {TOKEN}"]
+    cmd += ["-H", "Accept: application/vnd.github.v3+json"]
+    cmd.append(url)
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=25)
+        if result.returncode != 0:
+            return None
+        return json.loads(result.stdout)
+    except Exception as e:
+        log(f"  curl error: {e}")
+        return None
 
 
 def esc(t):
@@ -59,37 +72,49 @@ def generate_repo_card(r):
 </svg>'''
 
 
-os.makedirs(CARDS_DIR, exist_ok=True)
+def main():
+    log(f"=== Updating project cards for {USERNAME} ===")
+    os.makedirs(CARDS_DIR, exist_ok=True)
 
-repos = api_get(f'https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=stars&direction=desc')
-deployed = [r for r in repos if r.get('homepage') and not r['fork'] and r['name'] != USERNAME]
-deployed.sort(key=lambda r: r['stargazers_count'], reverse=True)
+    repos = curl_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=stars&direction=desc")
+    if not repos or not isinstance(repos, list):
+        log("FAILED to fetch repos")
+        return
 
-content_block = ""
-for r in deployed:
-    svg = generate_repo_card(r)
-    path = os.path.join(CARDS_DIR, f'{r["name"]}.svg')
-    with open(path, "w") as f:
-        f.write(svg)
-    url = f"https://github.com/{USERNAME}/{r['name']}"
-    img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
-    badge = f'\n\n[🔗 live site]({r["homepage"]})' if r.get('homepage') else ''
-    content_block += f'\n\n[<img src="{img}" width="520"/>]({url}){badge}'
+    deployed = [r for r in repos if r.get("homepage") and not r["fork"] and r["name"] != USERNAME]
+    deployed.sort(key=lambda r: r["stargazers_count"], reverse=True)
+    log(f"Found {len(deployed)} deployed repos: {[r['name'] for r in deployed]}")
 
-if not content_block:
-    content_block = '\n\n_No deployed repos yet — set a Website URL in repo About to appear here._\n'
+    content_block = ""
+    for r in deployed:
+        svg = generate_repo_card(r)
+        path = os.path.join(CARDS_DIR, f'{r["name"]}.svg')
+        with open(path, "w") as f:
+            f.write(svg)
+        url = f"https://github.com/{USERNAME}/{r['name']}"
+        img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
+        badge = f'\n\n[🔗 live site]({r["homepage"]})' if r.get("homepage") else ""
+        content_block += f'\n\n[<img src="{img}" width="520"/>]({url}){badge}'
+        log(f"  {r['name']}.svg")
 
-with open('README.md', 'r') as f:
-    content = f.read()
+    if not content_block:
+        content_block = '\n\n_No deployed repos yet — set a Website URL in repo About to appear here._\n'
 
-marker = '<!-- PROJECTS:start -->'
-end_marker = '<!-- PROJECTS:end -->'
-start = content.find(marker)
-end = content.find(end_marker)
-if start != -1 and end != -1:
-    new_content = content[:start + len(marker)] + '\n' + content_block + '\n' + content[end:]
-    with open('README.md', 'w') as f:
-        f.write(new_content)
-    print('README.md updated')
-else:
-    print('Markers not found')
+    with open(README, "r") as f:
+        content = f.read()
+
+    marker = "<!-- PROJECTS:start -->"
+    end_marker = "<!-- PROJECTS:end -->"
+    start = content.find(marker)
+    end = content.find(end_marker)
+    if start != -1 and end != -1:
+        new_content = content[:start + len(marker)] + "\n" + content_block + "\n" + content[end:]
+        with open(README, "w") as f:
+            f.write(new_content)
+        log("README.md updated")
+    else:
+        log("Markers not found in README.md")
+
+
+if __name__ == "__main__":
+    main()
