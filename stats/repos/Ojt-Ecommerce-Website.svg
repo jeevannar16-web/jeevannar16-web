@@ -1,0 +1,14 @@
+<svg width="495" height="120" viewBox="0 0 495 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: #181825; }
+    .bdr { fill: none; stroke: #313244; stroke-width: 1; }
+  </style>
+  <rect class="card" width="495" height="120" rx="6"/>
+  <rect class="bdr" width="495" height="120" rx="6"/>
+  <text x="25" y="35" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="16" font-weight="600" fill="#89b4fa">Ojt-Ecommerce-Website</text>
+  <text x="25" y="58" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Fitness Hub - Django Fitness Platform</text>
+  <circle cx="25" cy="98" r="5" fill="#1572B6"/>
+  <text x="36" y="102" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">CSS</text>
+  <text x="470" y="102" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#f9e2af" text-anchor="end">⭐ 2</text>
+  <text x="415" y="102" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8" text-anchor="end">🍴 0</text>
+</svg>

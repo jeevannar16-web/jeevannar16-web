@@ -8,7 +8,7 @@
 
 <br>
 
-<!-- 🔗 QUICK NAVIGATION -->
+<!-- QUICK NAVIGATION -->
 <div align="center">
   <a href="#about"><img src="https://img.shields.io/badge/%F0%9F%91%A4+About-1e1e2e?style=for-the-badge&logoColor=white&color=1e1e2e"/></a>
   <a href="#stats"><img src="https://img.shields.io/badge/%F0%9F%93%8A+Stats-1e1e2e?style=for-the-badge&logoColor=white&color=1e1e2e"/></a>
@@ -43,34 +43,19 @@
 jeevan@arch:~$ <span style="color:#a6e3a1;">./stats.sh --theme=tokyonight</span>
 </pre>
 
-<img src="https://github-readme-stats.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
-
-<br>
-
 <table>
   <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=jeevannar16-web&show_icons=true&theme=tokyonight&hide_border=true" width="100%"/>
+    <td width="55%">
+      <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/github-stats.svg" width="100%"/>
     </td>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=pie&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%"/>
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevannar16-web&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
+    <td width="45%">
+      <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/top-langs.svg" width="100%"/>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=jeevannar16-web&theme=tokyonight&hide_border=true" width="65%"/>
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/streak.svg" width="65%"/>
 </div>
 
 <br>
@@ -158,6 +143,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./tech_stack/</span>
       <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
       <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
       <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
     </td></tr>
     <tr><td style="padding:8px 20px;">
       <p style="color:#a6e3a1;font-weight:600;margin:0 0 8px 0;">Database</p>
@@ -222,7 +208,7 @@ jeevan@arch:~$ <span style="color:#a6e3a1;">ls ./projects/</span>
 <!-- PROJECTS:start -->
 
 
-[<img src="https://github-readme-stats.vercel.app/api/pin/?username=jeevannar16-web&repo=Ojt-Ecommerce-Website&theme=tokyonight&hide_border=true" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
+[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
 [🔗 live site](https://ojt-ecommerce-website.onrender.com)
 <!-- PROJECTS:end -->

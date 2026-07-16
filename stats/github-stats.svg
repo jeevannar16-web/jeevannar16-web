@@ -1,0 +1,17 @@
+<svg width="495" height="200" viewBox="0 0 495 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="495" height="200" rx="6" fill="#181825"/>
+  <rect width="495" height="200" rx="6" fill="none" stroke="#313244"/>
+  <text x="25" y="30" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="18" font-weight="700" fill="#cdd6f4">jeevannar16-web's GitHub Stats</text>
+  <text x="25" y="50" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Total Stars Earned</text>
+  <text x="25" y="70" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="22" font-weight="700" fill="#f9e2af">0</text>
+  <text x="262" y="50" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Commits (2026)</text>
+  <text x="262" y="70" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="22" font-weight="700" fill="#00ff9c">0</text>
+  <text x="25" y="100" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Total PRs</text>
+  <text x="25" y="120" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="22" font-weight="700" fill="#cba6f7">31</text>
+  <text x="262" y="100" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Total Issues</text>
+  <text x="262" y="120" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="22" font-weight="700" fill="#89b4fa">0</text>
+  <text x="25" y="150" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Public Repos</text>
+  <text x="25" y="170" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="22" font-weight="700" fill="#94e2d5">0</text>
+  <text x="262" y="150" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Followers</text>
+  <text x="262" y="170" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="22" font-weight="700" fill="#fab387">0</text>
+</svg>
