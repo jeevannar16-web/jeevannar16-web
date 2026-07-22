@@ -3,20 +3,20 @@
   <rect width="300" height="249" rx="6" fill="none" stroke="#313244"/>
   <text x="20" y="30" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="14" font-weight="700" fill="#cdd6f4">Most Used Languages</text>
   <text x="20" y="58" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">CSS</text>
-  <rect x="160" y="45" width="43.9" height="18" rx="6" fill="#89b4fa" opacity="0.85"/>
-  <text x="211.9" y="58" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">39.9%</text>
+  <rect x="160" y="45" width="43.7" height="18" rx="6" fill="#89b4fa" opacity="0.85"/>
+  <text x="211.7" y="58" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">39.7%</text>
   <text x="20" y="92" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">TypeScript</text>
-  <rect x="160" y="79" width="20.7" height="18" rx="6" fill="#00ff9c" opacity="0.85"/>
-  <text x="188.7" y="92" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">18.8%</text>
+  <rect x="160" y="79" width="21.0" height="18" rx="6" fill="#00ff9c" opacity="0.85"/>
+  <text x="189.0" y="92" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">19.1%</text>
   <text x="20" y="126" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">HTML</text>
   <rect x="160" y="113" width="17.6" height="18" rx="6" fill="#f9e2af" opacity="0.85"/>
   <text x="185.6" y="126" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">16.0%</text>
   <text x="20" y="160" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">JavaScript</text>
-  <rect x="160" y="147" width="17.1" height="18" rx="6" fill="#f38ba8" opacity="0.85"/>
-  <text x="185.1" y="160" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">15.5%</text>
+  <rect x="160" y="147" width="17.0" height="18" rx="6" fill="#f38ba8" opacity="0.85"/>
+  <text x="185.0" y="160" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">15.5%</text>
   <text x="20" y="194" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">Python</text>
-  <rect x="160" y="181" width="9.0" height="18" rx="6" fill="#cba6f7" opacity="0.85"/>
-  <text x="177.0" y="194" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">8.2%</text>
+  <rect x="160" y="181" width="8.9" height="18" rx="6" fill="#cba6f7" opacity="0.85"/>
+  <text x="176.9" y="194" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">8.1%</text>
   <text x="20" y="228" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">C++</text>
   <rect x="160" y="215" width="4.0" height="18" rx="6" fill="#94e2d5" opacity="0.85"/>
   <text x="172.0" y="228" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">1.6%</text>
