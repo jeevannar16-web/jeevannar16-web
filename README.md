@@ -233,6 +233,10 @@ jeevan@arch:~$ ls ./projects/
 [<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
 [🔗 live site](https://ojt-ecommerce-website.onrender.com)
+
+[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="520"/>](https://github.com/jeevannar16-web/Nepal-3d-portfolio)
+
+[🔗 live site](https://jeevannar16-web.github.io/Nepal-3d-portfolio/)
 <!-- PROJECTS:end -->
 
 <br>
