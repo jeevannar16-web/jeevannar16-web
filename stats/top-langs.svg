@@ -6,11 +6,11 @@
   <rect x="160" y="45" width="39.7" height="18" rx="6" fill="#89b4fa" opacity="0.85"/>
   <text x="207.7" y="58" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">36.1%</text>
   <text x="20" y="92" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">TypeScript</text>
-  <rect x="160" y="79" width="24.9" height="18" rx="6" fill="#00ff9c" opacity="0.85"/>
-  <text x="192.9" y="92" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">22.7%</text>
+  <rect x="160" y="79" width="25.0" height="18" rx="6" fill="#00ff9c" opacity="0.85"/>
+  <text x="193.0" y="92" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">22.7%</text>
   <text x="20" y="126" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">JavaScript</text>
   <rect x="160" y="113" width="17.0" height="18" rx="6" fill="#f9e2af" opacity="0.85"/>
-  <text x="185.0" y="126" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">15.5%</text>
+  <text x="185.0" y="126" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">15.4%</text>
   <text x="20" y="160" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#cdd6f4">HTML</text>
   <rect x="160" y="147" width="16.6" height="18" rx="6" fill="#f38ba8" opacity="0.85"/>
   <text x="184.6" y="160" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="11" fill="#a6adc8">15.1%</text>
