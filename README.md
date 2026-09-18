@@ -241,6 +241,10 @@ jeevan@arch:~$ ls ./projects/
 [<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="520"/>](https://github.com/jeevannar16-web/Shipping-Site)
 
 [🔗 live site](https://shipping-site-jeevan.vercel.app)
+
+[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="520"/>](https://github.com/jeevannar16-web/Pickora)
+
+[🔗 live site](https://pickorad.netlify.app)
 <!-- PROJECTS:end -->
 
 <br>
