@@ -261,7 +261,7 @@ def svg_calendar(days):
     start = sunday - timedelta(weeks=51)
     cell, step = 11, 14
     cols, rows = 52, 7
-    x0, y0 = 25, 48
+    x0, y0 = 25, 38
     w = x0 + (cols - 1) * step + cell + 25
     h = y0 + rows * step + 32
     lev = ["#1e1e2e", "#123f31", "#166b4b", "#1fa06f", "#00ff9c"]
@@ -285,7 +285,7 @@ def svg_calendar(days):
             x = x0 + wk * step
             name = months[d.month - 1]
             if x - prev_label_end >= 12:
-                labels += f'  <text x="{x}" y="{y0 - 12}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="11" fill="{c["sub"]}">{name}</text>\n'
+                labels += f'  <text x="{x}" y="{y0 - 13}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="11" fill="{c["sub"]}">{name}</text>\n'
                 prev_label_end = x + len(name) * 7 + 4
             prev_month = d.month
         for row in range(rows):
@@ -299,7 +299,7 @@ def svg_calendar(days):
         legend += f'  <rect x="{lx + 30 + i * 14}" y="{ly}" width="10" height="10" rx="2" fill="{lc}"/>\n'
     legend += f'  <text x="{lx + 30 + 5 * 14}" y="{ly + 9}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="10" fill="{c["sub"]}">More</text>\n'
 
-    title = f'  <text x="{x0}" y="24" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="16" font-weight="700" fill="{c["text"]}">&#128293; Contribution Calendar (last year)</text>\n'
+    title = ""
     return f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">\n  <rect width="{w}" height="{h}" rx="8" fill="{c["card"]}"/>\n  <rect width="{w}" height="{h}" rx="8" fill="none" stroke="{c["border"]}"/>\n{title}{labels}{boxes}{legend}</svg>'
 
 def svg_repo(r):
