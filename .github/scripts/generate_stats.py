@@ -261,9 +261,9 @@ def svg_calendar(days):
     start = sunday - timedelta(weeks=51)
     cell, step = 11, 14
     cols, rows = 52, 7
-    x0, y0 = 25, 40
+    x0, y0 = 25, 48
     w = x0 + (cols - 1) * step + cell + 25
-    h = y0 + rows * step + 30
+    h = y0 + rows * step + 32
     lev = ["#1e1e2e", "#123f31", "#166b4b", "#1fa06f", "#00ff9c"]
 
     def level(n):
@@ -278,17 +278,22 @@ def svg_calendar(days):
     labels = ""
     boxes = ""
     prev_month = None
+    prev_label_end = -999
     for wk in range(cols):
         d = start + timedelta(weeks=wk)
         if d.month != prev_month:
-            labels += f'  <text x="{x0 + wk * step}" y="33" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="11" fill="{c["sub"]}">{months[d.month - 1]}</text>\n'
+            x = x0 + wk * step
+            name = months[d.month - 1]
+            if x - prev_label_end >= 12:
+                labels += f'  <text x="{x}" y="{y0 - 12}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="11" fill="{c["sub"]}">{name}</text>\n'
+                prev_label_end = x + len(name) * 7 + 4
             prev_month = d.month
         for row in range(rows):
             ds = (d + timedelta(days=row)).strftime("%Y-%m-%d")
             boxes += f'  <rect x="{x0 + wk * step}" y="{y0 + row * step}" width="{cell}" height="{cell}" rx="2.5" fill="{level(days.get(ds, 0))}"/>\n'
 
     lx = x0 + cols * step - 60
-    ly = y0 + rows * step + 10
+    ly = y0 + rows * step + 12
     legend = f'  <text x="{lx}" y="{ly + 9}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="10" fill="{c["sub"]}">Less</text>\n'
     for i, lc in enumerate(lev):
         legend += f'  <rect x="{lx + 30 + i * 14}" y="{ly}" width="10" height="10" rx="2" fill="{lc}"/>\n'
