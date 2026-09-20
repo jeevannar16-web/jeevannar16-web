@@ -18,10 +18,18 @@
 
 <div align="center">
 
-[![Followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=followers)
-[![Stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories&sort=stargazers)
-[![PRs](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web/pulls)
-[![Repos](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories)
+<a href="https://github.com/jeevannar16-web?tab=followers" target="_blank" rel="noopener noreferrer">
+  ![Followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)
+</a>
+<a href="https://github.com/jeevannar16-web?tab=repositories&sort=stargazers" target="_blank" rel="noopener noreferrer">
+  ![Stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)
+</a>
+<a href="https://github.com/jeevannar16-web/pulls" target="_blank" rel="noopener noreferrer">
+  ![PRs](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)
+</a>
+<a href="https://github.com/jeevannar16-web?tab=repositories" target="_blank" rel="noopener noreferrer">
+  ![Repos](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)
+</a>
 
 </div>
 
@@ -319,29 +327,29 @@
 <table style="width:100%;border:none;">
   <tr>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🌐 <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio"><strong style="color:#89b4fa;">Nepal-3d-portfolio</strong></a><br>
+      🌐 <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio" target="_blank" rel="noopener noreferrer"><strong style="color:#89b4fa;">Nepal-3d-portfolio</strong></a><br>
       <span style="color:#a6adc8;">Three.js 3D map · live demo</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🛍️ <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website"><strong style="color:#f9e2af;">Ojt-Ecommerce</strong></a><br>
+      🛍️ <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website" target="_blank" rel="noopener noreferrer"><strong style="color:#f9e2af;">Ojt-Ecommerce</strong></a><br>
       <span style="color:#a6adc8;">Django full-stack store</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      💪 <a href="https://github.com/jeevannar16-web/Fitness-Hub"><strong style="color:#a6e3a1;">Fitness-Hub</strong></a><br>
+      💪 <a href="https://github.com/jeevannar16-web/Fitness-Hub" target="_blank" rel="noopener noreferrer"><strong style="color:#a6e3a1;">Fitness-Hub</strong></a><br>
       <span style="color:#a6adc8;">fitness tracking web app</span>
     </td>
   </tr>
   <tr>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🚚 <a href="https://github.com/jeevannar16-web/Shipping-Site"><strong style="color:#f38ba8;">Shipping-Site</strong></a><br>
+      🚚 <a href="https://github.com/jeevannar16-web/Shipping-Site" target="_blank" rel="noopener noreferrer"><strong style="color:#f38ba8;">Shipping-Site</strong></a><br>
       <span style="color:#a6adc8;">shipping quote &amp; tracking</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      📱 <a href="https://github.com/jeevannar16-web/Pickora"><strong style="color:#fab387;">Pickora</strong></a><br>
+      📱 <a href="https://github.com/jeevannar16-web/Pickora" target="_blank" rel="noopener noreferrer"><strong style="color:#fab387;">Pickora</strong></a><br>
       <span style="color:#a6adc8;">web app · live on Netlify</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🐧 <a href="https://github.com/jeevannar16-web/OS-installation"><strong style="color:#94e2d5;">OS-installation</strong></a><br>
+      🐧 <a href="https://github.com/jeevannar16-web/OS-installation" target="_blank" rel="noopener noreferrer"><strong style="color:#94e2d5;">OS-installation</strong></a><br>
       <span style="color:#a6adc8;">Arch · Ubuntu setup guide</span>
     </td>
   </tr>
@@ -354,25 +362,35 @@
 <!-- PROJECTS:start -->
 
 
-[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="520"/>](https://github.com/jeevannar16-web/Nepal-3d-portfolio)
+<a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="520"/>
+</a>
 
-[🔗 live site](https://jeevannar16-web.github.io/Nepal-3d-portfolio/)
+<a href="https://jeevannar16-web.github.io/Nepal-3d-portfolio/" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="520"/>](https://github.com/jeevannar16-web/OS-installation)
+<a href="https://github.com/jeevannar16-web/OS-installation" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="520"/>
+</a>
 
-[🔗 live site](https://os-installation.vercel.app)
+<a href="https://os-installation.vercel.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
+<a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>
+</a>
 
-[🔗 live site](https://ojt-ecommerce-website.onrender.com)
+<a href="https://ojt-ecommerce-website.onrender.com" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="520"/>](https://github.com/jeevannar16-web/Shipping-Site)
+<a href="https://github.com/jeevannar16-web/Shipping-Site" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="520"/>
+</a>
 
-[🔗 live site](https://shipping-site-jeevan.vercel.app)
+<a href="https://shipping-site-jeevan.vercel.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-[<img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="520"/>](https://github.com/jeevannar16-web/Pickora)
+<a href="https://github.com/jeevannar16-web/Pickora" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="520"/>
+</a>
 
-[🔗 live site](https://pickorad.netlify.app)
+<a href="https://pickorad.netlify.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 <!-- PROJECTS:end -->
 
 <br>
@@ -448,11 +466,21 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevannar16@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevannar16-web/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Jeevannar16)
-[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f)
+<a href="mailto:jeevannar16@gmail.com">
+  ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+</a>
+<a href="https://github.com/jeevannar16-web" target="_blank" rel="noopener noreferrer">
+  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+</a>
+<a href="https://leetcode.com/u/jeevannar16-web/" target="_blank" rel="noopener noreferrer">
+  ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
+</a>
+<a href="https://huggingface.co/Jeevannar16" target="_blank" rel="noopener noreferrer">
+  ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+</a>
+<a href="https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f" target="_blank" rel="noopener noreferrer">
+  ![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)
+</a>
 
 </div>
 

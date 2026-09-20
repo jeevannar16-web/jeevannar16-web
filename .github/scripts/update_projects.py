@@ -93,8 +93,9 @@ def main():
             f.write(svg)
         url = f"https://github.com/{USERNAME}/{r['name']}"
         img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
-        badge = f'\n\n[🔗 live site]({r["homepage"]})' if r.get("homepage") else ""
-        content_block += f'\n\n[<img src="{img}" width="520"/>]({url}){badge}'
+        repo_link = f'<a href="{url}" target="_blank" rel="noopener noreferrer"><img src="{img}" width="520"/></a>'
+        badge = f'\n\n<a href="{r["homepage"]}" target="_blank" rel="noopener noreferrer">🔗 live site</a>' if r.get("homepage") else ""
+        content_block += f'\n\n{repo_link}{badge}'
         log(f"  {r['name']}.svg")
 
     if not content_block:
