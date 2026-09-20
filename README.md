@@ -362,33 +362,23 @@
 <!-- PROJECTS:start -->
 
 
-<a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="520"/>
-</a>
+<a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="520"/></a>
 
 <a href="https://jeevannar16-web.github.io/Nepal-3d-portfolio/" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-<a href="https://github.com/jeevannar16-web/OS-installation" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="520"/>
-</a>
+<a href="https://github.com/jeevannar16-web/OS-installation" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="520"/></a>
 
 <a href="https://os-installation.vercel.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-<a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/>
-</a>
+<a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/></a>
 
 <a href="https://ojt-ecommerce-website.onrender.com" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-<a href="https://github.com/jeevannar16-web/Shipping-Site" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="520"/>
-</a>
+<a href="https://github.com/jeevannar16-web/Shipping-Site" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="520"/></a>
 
 <a href="https://shipping-site-jeevan.vercel.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 
-<a href="https://github.com/jeevannar16-web/Pickora" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="520"/>
-</a>
+<a href="https://github.com/jeevannar16-web/Pickora" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="520"/></a>
 
 <a href="https://pickorad.netlify.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
 <!-- PROJECTS:end -->
