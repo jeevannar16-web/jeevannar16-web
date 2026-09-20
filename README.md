@@ -18,17 +18,17 @@
 
 <div align="center">
 
-<a href="https://github.com/jeevannar16-web?tab=followers" target="_blank" rel="noopener noreferrer">
-  ![Followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)
+<a href="https://github.com/jeevannar16-web?tab=followers" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e" alt="GitHub followers" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://github.com/jeevannar16-web?tab=repositories&sort=stargazers" target="_blank" rel="noopener noreferrer">
-  ![Stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)
+<a href="https://github.com/jeevannar16-web?tab=repositories&sort=stargazers" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e" alt="GitHub stars" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://github.com/jeevannar16-web/pulls" target="_blank" rel="noopener noreferrer">
-  ![PRs](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)
+<a href="https://github.com/jeevannar16-web/pulls" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e" alt="Pull requests" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://github.com/jeevannar16-web?tab=repositories" target="_blank" rel="noopener noreferrer">
-  ![Repos](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)
+<a href="https://github.com/jeevannar16-web?tab=repositories" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e" alt="Repositories" height="28" style="border-radius:6px;"/>
 </a>
 
 </div>
@@ -456,20 +456,20 @@
 
 <div align="center">
 
-<a href="mailto:jeevannar16@gmail.com">
-  ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+<a href="mailto:jeevannar16@gmail.com" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://github.com/jeevannar16-web" target="_blank" rel="noopener noreferrer">
-  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+<a href="https://github.com/jeevannar16-web" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://leetcode.com/u/jeevannar16-web/" target="_blank" rel="noopener noreferrer">
-  ![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
+<a href="https://leetcode.com/u/jeevannar16-web/" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://huggingface.co/Jeevannar16" target="_blank" rel="noopener noreferrer">
-  ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+<a href="https://huggingface.co/Jeevannar16" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" height="28" style="border-radius:6px;"/>
 </a>
-<a href="https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f" target="_blank" rel="noopener noreferrer">
-  ![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)
+<a href="https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
+  <img src="https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime" height="28" style="border-radius:6px;"/>
 </a>
 
 </div>
