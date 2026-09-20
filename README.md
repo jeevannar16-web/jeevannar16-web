@@ -8,6 +8,12 @@
 
 </div>
 
+<div align="center">
+  <p style="color:#cdd6f4;font-family:'Fira Code',monospace;font-size:13px;margin:6px 0 0 0;">
+    ▸ <span style="color:#94e2d5;">web apps</span> · <span style="color:#cba6f7;">3D experiences</span> · <span style="color:#a6e3a1;">backend APIs</span> — <span style="color:#f9e2af;">built from Arch Linux</span>
+  </p>
+</div>
+
 <br>
 
 <div align="center">
@@ -29,9 +35,14 @@
 
 <div align="center">
 
-```
-jeevan@arch:~$ ./stats.sh --theme=tokyonight
-```
+<table style="width:100%;background:#181825;border:1.5px solid #313244;border-radius:12px;">
+  <tr>
+    <td style="padding:8px 16px;border-radius:12px;text-align:left;font-family:'Fira Code',monospace;font-size:12px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">./stats.sh --theme=tokyonight</span>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -125,9 +136,14 @@ jeevan@arch:~$ ./stats.sh --theme=tokyonight
 
 <div align="center">
 
-```
-jeevan@arch:~$ ls ./tech_stack/
-```
+<table style="width:100%;background:#181825;border:1.5px solid #313244;border-radius:12px;">
+  <tr>
+    <td style="padding:8px 16px;border-radius:12px;text-align:left;font-family:'Fira Code',monospace;font-size:12px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">ls ./tech_stack/</span>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -138,6 +154,7 @@ jeevan@arch:~$ ls ./tech_stack/
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
     </td>
     <td align="center" width="50%" style="background:#1e1e2e;border:1.5px solid #89b4fa44;border-radius:12px;padding:20px;">
       <p style="color:#89b4fa;font-weight:600;font-family:'Fira Code',monospace;font-size:14px;margin:0 0 12px 0;">Backend & Languages</p>
@@ -238,9 +255,14 @@ jeevan@arch:~$ ls ./tech_stack/
 
 <div align="center">
 
-```
-jeevan@arch:~$ cat contribution_3d.log
-```
+<table style="width:100%;background:#181825;border:1.5px solid #313244;border-radius:12px;">
+  <tr>
+    <td style="padding:8px 16px;border-radius:12px;text-align:left;font-family:'Fira Code',monospace;font-size:12px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">cat contribution_3d.log</span>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -256,9 +278,14 @@ jeevan@arch:~$ cat contribution_3d.log
 
 <div align="center">
 
-```
-jeevan@arch:~$ fortune | cowsay -f tux
-```
+<table style="width:100%;background:#181825;border:1.5px solid #313244;border-radius:12px;">
+  <tr>
+    <td style="padding:8px 16px;border-radius:12px;text-align:left;font-family:'Fira Code',monospace;font-size:12px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">fortune | cowsay -f tux</span>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -276,11 +303,53 @@ jeevan@arch:~$ fortune | cowsay -f tux
 
 <div align="center">
 
-```
-jeevan@arch:~$ ls ./projects/
-```
+<table style="width:100%;background:#181825;border:1.5px solid #313244;border-radius:12px;">
+  <tr>
+    <td style="padding:8px 16px;border-radius:12px;text-align:left;font-family:'Fira Code',monospace;font-size:12px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">ls ./projects/</span>
+    </td>
+  </tr>
+</table>
 
 </div>
+
+<div align="center">
+
+<table style="width:100%;border:none;">
+  <tr>
+    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🌐 <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio"><strong style="color:#89b4fa;">Nepal-3d-portfolio</strong></a><br>
+      <span style="color:#a6adc8;">Three.js 3D map · live demo</span>
+    </td>
+    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🛍️ <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website"><strong style="color:#f9e2af;">Ojt-Ecommerce</strong></a><br>
+      <span style="color:#a6adc8;">Django full-stack store</span>
+    </td>
+    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      💪 <a href="https://github.com/jeevannar16-web/Fitness-Hub"><strong style="color:#a6e3a1;">Fitness-Hub</strong></a><br>
+      <span style="color:#a6adc8;">fitness tracking web app</span>
+    </td>
+  </tr>
+  <tr>
+    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🚚 <a href="https://github.com/jeevannar16-web/Shipping-Site"><strong style="color:#f38ba8;">Shipping-Site</strong></a><br>
+      <span style="color:#a6adc8;">shipping quote &amp; tracking</span>
+    </td>
+    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      📱 <a href="https://github.com/jeevannar16-web/Pickora"><strong style="color:#fab387;">Pickora</strong></a><br>
+      <span style="color:#a6adc8;">web app · live on Netlify</span>
+    </td>
+    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🐧 <a href="https://github.com/jeevannar16-web/OS-installation"><strong style="color:#94e2d5;">OS-installation</strong></a><br>
+      <span style="color:#a6adc8;">Arch · Ubuntu setup guide</span>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br>
 
 <!-- PROJECTS:start -->
 
@@ -366,9 +435,14 @@ jeevan@arch:~$ ls ./projects/
 
 <div align="center">
 
-```
-jeevan@arch:~$ ./contact.sh
-```
+<table style="width:100%;background:#181825;border:1.5px solid #313244;border-radius:12px;">
+  <tr>
+    <td style="padding:8px 16px;border-radius:12px;text-align:left;font-family:'Fira Code',monospace;font-size:12px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">./contact.sh</span>
+    </td>
+  </tr>
+</table>
 
 </div>
 
