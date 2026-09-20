@@ -147,7 +147,7 @@ def fetch_contributions():
                         days[day["date"]] = day["contributionCount"]
                 current, longest = calc_streaks(days)
                 log(f"  GraphQL OK: {total} contributions, streak: {current}/{longest}")
-                return total, current, longest
+                return total, current, longest, days
             except (KeyError, TypeError) as e:
                 log(f"  GraphQL parse error: {e}")
         else:
@@ -159,7 +159,7 @@ def fetch_contributions():
     html = curl_html(f"https://github.com/users/{USERNAME}/contributions")
     if not html:
         log("  Scrape failed: no HTML")
-        return 0, 0, 0
+        return 0, 0, 0, None
 
     match = re.search(r'(\d[\d,]*)\s*contributions?\s*in\s*the\s*last\s*year', html, re.I)
     total = int(match.group(1).replace(',', '')) if match else 0
@@ -167,7 +167,7 @@ def fetch_contributions():
     days = {d: int(c) for d, c in cal_data}
     current, longest = calc_streaks(days) if days else (0, 0)
     log(f"  Scrape OK: {total} contributions, streak: {current}/{longest}")
-    return total, current, longest
+    return total, current, longest, days
 
 def calc_streaks(contrib_days):
     if not contrib_days:
@@ -205,7 +205,7 @@ def svg_stats(name, s):
     items = [
         ("Total Stars Earned", str(s["stars"]), c["yellow"]),
         (f"Commits ({datetime.now().year})", str(s["commits"]), c["green"]),
-        ("Total PRs", str(s["prs"]), c["mauve"]),
+        ("Total PRs", str(s["prs"]), c["red"]),
         ("Total Issues", str(s["issues"]), c["blue"]),
         ("Public Repos", str(s["repos"]), c["teal"]),
         ("Followers", str(s["followers"]), c["peach"]),
@@ -234,21 +234,68 @@ def svg_langs(langs):
     return f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">\n  <rect width="{w}" height="{h}" rx="6" fill="{c["card"]}"/>\n  <rect width="{w}" height="{h}" rx="6" fill="none" stroke="{c["border"]}"/>\n  <text x="{mx}" y="30" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="14" font-weight="700" fill="{c["text"]}">Most Used Languages</text>\n{bars}</svg>'
 
 def svg_streak(cur, lng, tot):
-    c = T; w, h = 495, 130; mx, my = 25, 20
+    c = T; w, h = 495, 118; mx = 25
+    cols = [
+        ("Current Streak", cur, c["green"], "days"),
+        ("Longest Streak", lng, c["yellow"], "days"),
+        ("Total Contributions", tot, c["mauve"], "this year"),
+    ]
+    xs = [mx, 190, 355]
+    b = ""
+    for (lab, val, col, suffix), x in zip(cols, xs):
+        b += f'  <text x="{x}" y="52" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="12" fill="{c["sub"]}">{esc(lab)}</text>\n'
+        b += f'  <text x="{x}" y="88" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="34" font-weight="700" fill="{col}">{esc(val)}</text>\n'
+        b += f'  <text x="{x}" y="104" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="12" fill="{c["sub"]}">{esc(suffix)}</text>\n'
     return f'''<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">
   <rect width="{w}" height="{h}" rx="6" fill="{c['card']}"/>
   <rect width="{w}" height="{h}" rx="6" fill="none" stroke="{c['border']}"/>
-  <text x="{mx}" y="{my+10}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="16" font-weight="700" fill="{c['text']}">&#128293; Contribution Streak</text>
-  <text x="{mx}" y="{my+50}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="{c['sub']}">Current Streak</text>
-  <text x="{mx}" y="{my+75}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="32" font-weight="700" fill="{c['green']}">{cur}</text>
-  <text x="{mx+55}" y="{my+75}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="14" fill="{c['sub']}">days</text>
-  <text x="{w//3+mx}" y="{my+50}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="{c['sub']}">Longest Streak</text>
-  <text x="{w//3+mx}" y="{my+75}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="32" font-weight="700" fill="{c['yellow']}">{lng}</text>
-  <text x="{w//3+mx+55}" y="{my+75}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="14" fill="{c['sub']}">days</text>
-  <text x="{2*w//3+mx}" y="{my+50}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="{c['sub']}">Total Contributions</text>
-  <text x="{2*w//3+mx}" y="{my+75}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="32" font-weight="700" fill="{c['mauve']}">{tot}</text>
-  <text x="{2*w//3+mx+55}" y="{my+75}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="14" fill="{c['sub']}">this year</text>
-</svg>'''
+  <text x="{mx}" y="26" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="16" font-weight="700" fill="{c['text']}">&#128293; Contribution Streak</text>
+{b}</svg>'''
+
+def svg_calendar(days):
+    c = T
+    if not days:
+        days = {}
+    today = datetime.now().date()
+    sunday = today - timedelta(days=(today.weekday() + 1) % 7)
+    start = sunday - timedelta(weeks=51)
+    cell, step = 11, 14
+    cols, rows = 52, 7
+    x0, y0 = 25, 40
+    w = x0 + (cols - 1) * step + cell + 25
+    h = y0 + rows * step + 30
+    lev = ["#1e1e2e", "#123f31", "#166b4b", "#1fa06f", "#00ff9c"]
+
+    def level(n):
+        if n <= 0: return lev[0]
+        if n <= 2: return lev[1]
+        if n <= 5: return lev[2]
+        if n <= 9: return lev[3]
+        return lev[4]
+
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    labels = ""
+    boxes = ""
+    prev_month = None
+    for wk in range(cols):
+        d = start + timedelta(weeks=wk)
+        if d.month != prev_month:
+            labels += f'  <text x="{x0 + wk * step}" y="33" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="11" fill="{c["sub"]}">{months[d.month - 1]}</text>\n'
+            prev_month = d.month
+        for row in range(rows):
+            ds = (d + timedelta(days=row)).strftime("%Y-%m-%d")
+            boxes += f'  <rect x="{x0 + wk * step}" y="{y0 + row * step}" width="{cell}" height="{cell}" rx="2.5" fill="{level(days.get(ds, 0))}"/>\n'
+
+    lx = x0 + cols * step - 60
+    ly = y0 + rows * step + 10
+    legend = f'  <text x="{lx}" y="{ly + 9}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="10" fill="{c["sub"]}">Less</text>\n'
+    for i, lc in enumerate(lev):
+        legend += f'  <rect x="{lx + 30 + i * 14}" y="{ly}" width="10" height="10" rx="2" fill="{lc}"/>\n'
+    legend += f'  <text x="{lx + 30 + 5 * 14}" y="{ly + 9}" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="10" fill="{c["sub"]}">More</text>\n'
+
+    title = f'  <text x="{x0}" y="24" font-family="\'Segoe UI\',Ubuntu,sans-serif" font-size="16" font-weight="700" fill="{c["text"]}">&#128293; Contribution Calendar (last year)</text>\n'
+    return f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">\n  <rect width="{w}" height="{h}" rx="8" fill="{c["card"]}"/>\n  <rect width="{w}" height="{h}" rx="8" fill="none" stroke="{c["border"]}"/>\n{title}{labels}{boxes}{legend}</svg>'
 
 def svg_repo(r):
     c = T; w, h = 495, 120
@@ -284,7 +331,7 @@ def main():
     total_issues = fetch_search_count(f"author:{USERNAME}+type:issue")
     log(f"  PRs: {total_prs}, Issues: {total_issues}")
     languages = fetch_languages(repos)
-    total_contribs, current_streak, longest_streak = fetch_contributions()
+    total_contribs, current_streak, longest_streak, contrib_days = fetch_contributions()
 
     stats = {
         "name": profile.get("name") or USERNAME,
@@ -306,6 +353,8 @@ def main():
         f.write(svg_langs(languages))
     with open(os.path.join(OUTPUT_DIR, "streak.svg"), "w") as f:
         f.write(svg_streak(current_streak, longest_streak, total_contribs))
+    with open(os.path.join(OUTPUT_DIR, "calendar.svg"), "w") as f:
+        f.write(svg_calendar(contrib_days or {}))
 
     deployed = [r for r in repos if r.get("homepage") and not r["fork"] and r["name"] != USERNAME]
     for r in deployed:

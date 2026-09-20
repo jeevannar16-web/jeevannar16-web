@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3200&pause=700&color=00FF9C&center=true&vCenter=true&width=800&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows;Kitty+terminal+%7C+bash+%7C+VS+Code;Building+one+commit+at+a+time)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3200&pause=700&color=00FF9C&center=true&vCenter=true&width=800&lines=Engineering+student+working+from+home;Learning+Python+%2B+Django+by+building;Exploring+Linux+internals+%26+backend+dev;Triple-booting+Arch+%2B+Ubuntu+%2B+Windows;Editing+videos+in+Kdenlive;Kitty+terminal+%7C+bash+%7C+VS+Code;Building+one+commit+at+a+time)
 
 </div>
 
@@ -14,8 +14,8 @@
 
 [![Followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=followers)
 [![Stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories&sort=stargazers)
-[![PRs](https://img.shields.io/badge/PRs-31-00ff9c?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web/pulls)
-[![Repos](https://img.shields.io/badge/Repos-8-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories)
+[![PRs](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web/pulls)
+[![Repos](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories)
 
 </div>
 
@@ -51,7 +51,7 @@ jeevan@arch:~$ ./stats.sh --theme=tokyonight
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevannar16-web&theme=tokyonight&hide_border=true&area=true&radius=8" width="100%"/>
+  <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/calendar.svg" width="100%"/>
 </div>
 
 <br>
@@ -78,7 +78,8 @@ jeevan@arch:~$ cat about_me.txt
           <td style="padding:16px 20px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:15px;line-height:1.8;border:1.5px solid #89b4fa44;border-radius:12px;background:#1e1e2e;">
             I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace.<br><br>
             Currently focused on deepening intermediate <strong style="color:#f9e2af;">JavaScript</strong>, building backend <strong style="color:#89b4fa;">APIs with Python & Django</strong>, and connecting them to <strong style="color:#a6e3a1;">SQL</strong> databases.<br><br>
-            I run a <strong style="color:#f38ba8;">triple-boot Arch / Ubuntu / Windows</strong> setup and study <strong style="color:#94e2d5;">Computer Engineering</strong> at Shivapuri Secondary School (Grade XI).
+            I run a <strong style="color:#f38ba8;">triple-boot Arch / Ubuntu / Windows</strong> setup and study <strong style="color:#94e2d5;">Computer Engineering</strong> at Shivapuri Secondary School (Grade XI).<br><br>
+            Beyond code, I'm picking up <strong style="color:#fab387;">video editing with Kdenlive</strong> — turning raw clips into clean, edited output, one timeline at a time.
           </td>
         </tr>
       </table>
@@ -167,6 +168,60 @@ jeevan@arch:~$ ls ./tech_stack/
       <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
       <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
       <img src="https://img.shields.io/badge/Kitty-1e1e2e?style=for-the-badge&logo=kitty&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!--                          LEARNED & USED                               -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+```
+jeevan@arch:~$ cat ~/learnings.log
+```
+
+</div>
+
+<table>
+  <tr>
+    <td align="left" width="50%" style="background:#1e1e2e;border:1.5px solid #89b4fa44;border-radius:12px;padding:20px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;line-height:2;">
+      <p style="color:#89b4fa;font-weight:600;font-family:'Fira Code',monospace;font-size:14px;margin:0 0 8px 0;">Backend & Data</p>
+      <span style="color:#a6e3a1;">&#10003;</span> Python &amp; Django<br>
+      <span style="color:#a6e3a1;">&#10003;</span> REST API development<br>
+      <span style="color:#a6e3a1;">&#10003;</span> SQL databases<br>
+      <span style="color:#a6e3a1;">&#10003;</span> Auth basics (JWT / OAuth)
+    </td>
+    <td align="left" width="50%" style="background:#1e1e2e;border:1.5px solid #f9e2af44;border-radius:12px;padding:20px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;line-height:2;">
+      <p style="color:#f9e2af;font-weight:600;font-family:'Fira Code',monospace;font-size:14px;margin:0 0 8px 0;">Frontend & Web</p>
+      <span style="color:#a6e3a1;">&#10003;</span> HTML &amp; CSS<br>
+      <span style="color:#a6e3a1;">&#10003;</span> JavaScript<br>
+      <span style="color:#a6e3a1;">&#10003;</span> Responsive design<br>
+      <span style="color:#a6e3a1;">&#10003;</span> Three.js 3D portfolio
+    </td>
+  </tr>
+  <tr>
+    <td align="left" style="background:#1e1e2e;border:1.5px solid #a6e3a144;border-radius:12px;padding:20px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;line-height:2;">
+      <p style="color:#a6e3a1;font-weight:600;font-family:'Fira Code',monospace;font-size:14px;margin:0 0 8px 0;">Systems & Linux</p>
+      <span style="color:#a6e3a1;">&#10003;</span> Arch / Ubuntu daily driver<br>
+      <span style="color:#a6e3a1;">&#10003;</span> Bash scripting<br>
+      <span style="color:#a6e3a1;">&#10003;</span> systemd &amp; package managers<br>
+      <span style="color:#a6e3a1;">&#10003;</span> Dotfiles management
+    </td>
+    <td align="left" style="background:#1e1e2e;border:1.5px solid #f5c2e744;border-radius:12px;padding:20px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;line-height:2;">
+      <p style="color:#f5c2e7;font-weight:600;font-family:'Fira Code',monospace;font-size:14px;margin:0 0 8px 0;">Dev Workflow</p>
+      <span style="color:#a6e3a1;">&#10003;</span> Git, branching &amp; PRs<br>
+      <span style="color:#a6e3a1;">&#10003;</span> GitHub Actions / CI<br>
+      <span style="color:#a6e3a1;">&#10003;</span> Deploy: Vercel, Netlify, Render<br>
+      <span style="color:#a6e3a1;">&#10003;</span> C, C++ &amp; Java foundations
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="background:#1e1e2e;border:1.5px dashed #00ff9c66;border-radius:12px;padding:14px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:14px;">
+      🎬 <strong style="color:#a6e3a1;">Currently learning:</strong> video editing &amp; color grading in <strong style="color:#00ff9c;">Kdenlive</strong>
     </td>
   </tr>
 </table>
@@ -281,6 +336,10 @@ jeevan@arch:~$ ps aux | grep current_focus
   <tr>
     <td style="padding:6px 16px;text-align:center;color:#f9e2af;">🟡</td>
     <td style="padding:6px 16px;color:#cdd6f4;">Exploring Linux internals & shell scripting</td>
+  </tr>
+  <tr>
+    <td style="padding:6px 16px;text-align:center;color:#a6e3a1;">🟢</td>
+    <td style="padding:6px 16px;color:#cdd6f4;">Learning video editing with Kdenlive</td>
   </tr>
 </table>
 
