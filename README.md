@@ -51,7 +51,7 @@ jeevan@arch:~$ ./stats.sh --theme=tokyonight
 </div>
 
 <div align="center">
-  <p style="color:#a6adc8;font-family:'Fira Code',monospace;font-size:12px;margin:2px 0 8px 0;"><span style="color:#89b4fa;">jeevan@arch</span>:~$ <span style="color:#f9e2af;">contribution_calendar --last-year</span></p>
+  <p style="color:#a6adc8;font-family:'Fira Code',monospace;font-size:12px;margin:2px 0 8px 0;"><span style="color:#89b4fa;">jeevan@arch</span>:~$ <span style="color:#f9e2af;">contribution_calendar --2026</span></p>
   <img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/calendar.svg" width="100%"/>
 </div>
 
@@ -74,51 +74,41 @@ jeevan@arch:~$ ./stats.sh --theme=tokyonight
   </tr>
   <tr>
     <td style="padding:22px 24px;background:#1e1e2e;border-radius:0 0 14px 14px;">
-      <table style="border:none;">
+      <p style="margin:0 0 8px 0;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:16px;line-height:1.7;text-align:left;">
+        <strong style="color:#f9e2af;">Engineering student</strong> <span style="color:#a6adc8;">·</span> <span style="color:#94e2d5;">Computer Engineering — Grade XI</span>
+      </p>
+      <p style="margin:0 0 10px 0;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:15px;line-height:1.9;text-align:left;">
+        I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace.
+      </p>
+      <p style="margin:0 0 14px 0;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:15px;line-height:2;text-align:left;">
+        <span style="color:#a6e3a1;">▸</span> <strong style="color:#89b4fa;">Currently:</strong> JavaScript, Python &amp; Django APIs, SQL<br>
+        <span style="color:#a6e3a1;">▸</span> <strong style="color:#f38ba8;">Setup:</strong> triple-boot Arch / Ubuntu / Windows<br>
+        <span style="color:#a6e3a1;">▸</span> <strong style="color:#fab387;">Side quest:</strong> learning <strong style="color:#00ff9c;">Kdenlive</strong> video editing 🎬
+      </p>
+            <table style="width:100%;background:#181825;border:1px solid #313244;border-radius:10px;font-family:'Fira Code',monospace;font-size:12px;text-align:left;">
         <tr>
-          <td width="58%" style="vertical-align:top;padding-right:18px;color:#cdd6f4;font-family:'Inter','Segoe UI',sans-serif;font-size:15px;line-height:1.9;text-align:left;">
-            <p style="margin:0 0 10px 0;font-size:16px;"><strong style="color:#f9e2af;">Engineering student</strong> <span style="color:#a6adc8;">·</span> <span style="color:#94e2d5;">Computer Engineering — Grade XI</span></p>
-            I enjoy building clean, efficient systems and turning logic into working software — mostly from my own desk, at my own pace.<br><br>
-            <span style="color:#a6e3a1;">▸</span> <strong style="color:#89b4fa;">Currently:</strong> JavaScript, Python &amp; Django APIs, SQL<br>
-            <span style="color:#a6e3a1;">▸</span> <strong style="color:#f38ba8;">Setup:</strong> triple-boot Arch / Ubuntu / Windows<br>
-            <span style="color:#a6e3a1;">▸</span> <strong style="color:#fab387;">Side quest:</strong> learning <strong style="color:#00ff9c;">Kdenlive</strong> video editing 🎬
-          </td>
-          <td width="42%" style="vertical-align:top;">
-            <table style="width:100%;background:#1e1e2e;border:1.5px solid #f5c2e755;border-radius:12px;font-family:'Fira Code',monospace;font-size:13px;">
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">OS</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">Arch / Ubuntu / Windows</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">School</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">Shivapuri Secondary School</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Grade</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">XI — Computer Engineering</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Location</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">Kathmandu, Nepal 🇳🇵</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Shell</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">bash</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Terminal</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">Kitty</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Editor</td>
-                <td style="padding:8px 14px;color:#cdd6f4;">VS Code</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Status</td>
-                <td style="padding:8px 14px;color:#a6e3a1;">🟢 building something</td>
-              </tr>
-            </table>
-          </td>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">OS</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">Arch / Ubuntu / Windows</td>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Location</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">Kathmandu, Nepal</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">School</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">Shivapuri Secondary School</td>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Terminal</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">Kitty</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Grade</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">XI — Computer Eng.</td>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Editor</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">VS Code</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Shell</td>
+          <td style="padding:8px 14px;color:#cdd6f4;">bash</td>
+          <td style="padding:8px 14px;color:#89b4fa;font-weight:600;">Status</td>
+          <td style="padding:8px 14px;color:#a6e3a1;">🟢 building something</td>
         </tr>
       </table>
     </td>
@@ -324,38 +314,47 @@ jeevan@arch:~$ ls ./projects/
 
 <div align="center">
 
-```
-jeevan@arch:~$ ps aux | grep current_focus
-```
-
-</div>
-
-<table style="margin:0 auto;background:#1e1e2e;border:1.5px solid #a6e3a144;border-radius:12px;width:85%;font-family:'Fira Code',monospace;font-size:13px;">
+<table style="width:100%;background:#1e1e2e;border:1.5px solid #313244;border-radius:14px;">
   <tr>
-    <th style="padding:10px 16px;color:#a6e3a1;font-weight:600;border-bottom:1px solid #313244;text-align:center;">Status</th>
-    <th style="padding:10px 16px;color:#a6e3a1;font-weight:600;border-bottom:1px solid #313244;text-align:left;">Task</th>
+    <td style="background:#181825;padding:10px 16px;border-bottom:1px solid #313244;border-radius:14px 14px 0 0;text-align:left;font-family:'Fira Code',monospace;font-size:13px;color:#a6adc8;">
+      <span style="color:#f38ba8;">&#9679;</span>&nbsp;&nbsp;<span style="color:#f9e2af;">&#9679;</span>&nbsp;&nbsp;<span style="color:#a6e3a1;">&#9679;</span>&nbsp;&nbsp;&nbsp;
+      <span style="color:#89b4fa;">jeevan@arch</span><span style="color:#cdd6f4;">:~$</span> <span style="color:#f9e2af;">ps aux | grep current_focus</span>
+    </td>
   </tr>
   <tr>
-    <td style="padding:6px 16px;text-align:center;color:#a6e3a1;">🟢</td>
-    <td style="padding:6px 16px;color:#cdd6f4;">Deepening intermediate JavaScript logic</td>
-  </tr>
-  <tr>
-    <td style="padding:6px 16px;text-align:center;color:#a6e3a1;">🟢</td>
-    <td style="padding:6px 16px;color:#cdd6f4;">Building backend APIs with Python & Django</td>
-  </tr>
-  <tr>
-    <td style="padding:6px 16px;text-align:center;color:#a6e3a1;">🟢</td>
-    <td style="padding:6px 16px;color:#cdd6f4;">Connecting APIs to SQL databases</td>
-  </tr>
-  <tr>
-    <td style="padding:6px 16px;text-align:center;color:#f9e2af;">🟡</td>
-    <td style="padding:6px 16px;color:#cdd6f4;">Exploring Linux internals & shell scripting</td>
-  </tr>
-  <tr>
-    <td style="padding:6px 16px;text-align:center;color:#a6e3a1;">🟢</td>
-    <td style="padding:6px 16px;color:#cdd6f4;">Learning video editing with Kdenlive</td>
+    <td style="padding:16px 22px;background:#1e1e2e;border-radius:0 0 14px 14px;font-family:'Fira Code',monospace;font-size:13px;">
+      <table style="width:100%;border:none;">
+        <tr>
+          <td style="padding:6px 8px;color:#cdd6f4;text-align:left;">Intermediate JavaScript</td>
+          <td style="padding:6px 8px;text-align:left;"><span style="color:#a6e3a1;">████████</span><span style="color:#313244;">██</span></td>
+          <td style="padding:6px 8px;color:#a6e3a1;text-align:right;width:58px;">80%</td>
+        </tr>
+        <tr>
+          <td style="padding:6px 8px;color:#cdd6f4;text-align:left;">Python &amp; Django APIs</td>
+          <td style="padding:6px 8px;text-align:left;"><span style="color:#a6e3a1;">███████</span><span style="color:#313244;">███</span></td>
+          <td style="padding:6px 8px;color:#a6e3a1;text-align:right;width:58px;">75%</td>
+        </tr>
+        <tr>
+          <td style="padding:6px 8px;color:#cdd6f4;text-align:left;">SQL databases</td>
+          <td style="padding:6px 8px;text-align:left;"><span style="color:#a6e3a1;">██████</span><span style="color:#313244;">████</span></td>
+          <td style="padding:6px 8px;color:#a6e3a1;text-align:right;width:58px;">65%</td>
+        </tr>
+        <tr>
+          <td style="padding:6px 8px;color:#cdd6f4;text-align:left;">Linux internals &amp; shell scripting</td>
+          <td style="padding:6px 8px;text-align:left;"><span style="color:#f9e2af;">██████</span><span style="color:#313244;">████</span></td>
+          <td style="padding:6px 8px;color:#f9e2af;text-align:right;width:58px;">60%</td>
+        </tr>
+        <tr>
+          <td style="padding:6px 8px;color:#cdd6f4;text-align:left;">Kdenlive video editing 🎬</td>
+          <td style="padding:6px 8px;text-align:left;"><span style="color:#a6e3a1;">████</span><span style="color:#313244;">██████</span></td>
+          <td style="padding:6px 8px;color:#a6e3a1;text-align:right;width:58px;">40%</td>
+        </tr>
+      </table>
+    </td>
   </tr>
 </table>
+
+</div>
 
 <br>
 

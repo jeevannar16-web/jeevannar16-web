@@ -320,6 +320,20 @@ def svg_repo(r):
   <text x="{w-80}" y="{h-18}" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="{c['sub']}" text-anchor="end">&#127860; {forks}</text>
 </svg>'''
 
+def sync_readme_calendar_year():
+    import re
+    readme = os.path.join(SCRIPT_DIR, "..", "..", "README.md")
+    year = datetime.now().year
+    with open(readme) as f:
+        content = f.read()
+    new, n = re.subn(r"contribution_calendar --[A-Za-z0-9]+", f"contribution_calendar --{year}", content, count=1)
+    if n and new != content:
+        with open(readme, "w") as f:
+            f.write(new)
+        log(f"README calendar label synced to {year}")
+    else:
+        log("README calendar label up to date")
+
 # ── Main ─────────────────────────────────────────────────────────────
 
 def main():
@@ -367,6 +381,7 @@ def main():
             f.write(svg_repo(r))
         log(f"  repos/{r['name']}.svg")
 
+    sync_readme_calendar_year()
     log("=== DONE ===")
 
 if __name__ == "__main__":
