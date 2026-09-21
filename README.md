@@ -456,7 +456,7 @@
 
 <div align="center">
 
-<a href="mailto:jeevannar16@gmail.com" style="display:inline-block; margin:4px 6px;">
+<a href="mailto:jeevannar16@gmail.com" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="28" style="border-radius:6px;"/>
 </a>
 <a href="https://github.com/jeevannar16-web" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
