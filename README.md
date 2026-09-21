@@ -18,13 +18,7 @@
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=followers)
-
-[![GitHub stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories&sort=stargazers)
-
-[![Pull requests](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web/pulls)
-
-[![Repositories](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories)
+[![GitHub followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=followers) [![GitHub stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories&sort=stargazers) [![Pull requests](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web/pulls) [![Repositories](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories)
 
 </div>
 
@@ -469,15 +463,7 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevannar16@gmail.com)
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web)
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevannar16-web/)
-
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Jeevannar16)
-
-[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevannar16@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web) [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevannar16-web/) [![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Jeevannar16) [![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f)
 
 </div>
 
