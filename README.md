@@ -321,30 +321,34 @@
 
 <table style="width:100%;border:none;">
   <tr>
-    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🌐 ![Nepal-3d-portfolio](https://img.shields.io/badge/Nepal--3d--portfolio-open-blue?style=for-the-badge&logo=github&logoColor=white)<br>
+    <td colspan="2" align="left" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🌐 <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio"><img src="https://img.shields.io/badge/Nepal--3d--portfolio-open-blue?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">Three.js 3D map · live demo</span>
     </td>
-    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🛍️ ![Ojt-Ecommerce](https://img.shields.io/badge/Ojt--Ecommerce-open-yellow?style=for-the-badge&logo=github&logoColor=white)<br>
+  </tr>
+  <tr>
+    <td align="left" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🛍️ <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website"><img src="https://img.shields.io/badge/Ojt--Ecommerce-open-yellow?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">Django full-stack store</span>
     </td>
-    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      💪 ![Fitness-Hub](https://img.shields.io/badge/Fitness--Hub-open-green?style=for-the-badge&logo=github&logoColor=white)<br>
+    <td align="left" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      💪 <a href="https://github.com/jeevannar16-web/Fitness-Hub"><img src="https://img.shields.io/badge/Fitness--Hub-open-green?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">fitness tracking web app</span>
     </td>
   </tr>
   <tr>
-    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🚚 ![Shipping-Site](https://img.shields.io/badge/Shipping--Site-open-red?style=for-the-badge&logo=github&logoColor=white)<br>
+    <td align="left" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🚚 <a href="https://shipping-site-jeevan.vercel.app"><img src="https://img.shields.io/badge/Shipping--Site-open-red?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">shipping quote &amp; tracking</span>
     </td>
-    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      📱 ![Pickora](https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white)<br>
+    <td align="left" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      📱 <a href="https://github.com/jeevannar16-web/Pickora"><img src="https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">web app · live on Netlify</span>
     </td>
-    <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🐧 ![OS-installation](https://img.shields.io/badge/OS--installation-open-teal?style=for-the-badge&logo=github&logoColor=white)<br>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🐧 <a href="https://github.com/jeevannar16-web/OS-installation"><img src="https://img.shields.io/badge/OS--installation-open-teal?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">Arch · Ubuntu setup guide</span>
     </td>
   </tr>
