@@ -85,22 +85,39 @@ def main():
     deployed.sort(key=lambda r: r["stargazers_count"], reverse=True)
     log(f"Found {len(deployed)} deployed repos: {[r['name'] for r in deployed]}")
 
-    content_block = ""
+    cards_html = []
     for r in deployed:
         svg = generate_repo_card(r)
         path = os.path.join(CARDS_DIR, f'{r["name"]}.svg')
         with open(path, "w") as f:
             f.write(svg)
-        url = f"https://github.com/{USERNAME}/{r['name']}"
-        img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
-        repo_link = f'![{esc(r["name"])}]({img})'
-        badge_url = f'https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white'
-        badge = f'\n\n![Live site]({badge_url})' if r.get("homepage") else ""
-        content_block += f'\n\n{repo_link}{badge}'
-        log(f"  {r['name']}.svg")
 
-    if not content_block:
+        repo_url = r.get("html_url") or f"https://github.com/{USERNAME}/{r['name']}"
+        img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
+        homepage = r.get("homepage")
+
+        buttons = f'<a href="{repo_url}"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a>'
+        if homepage:
+            buttons += f' <a href="{homepage}"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>'
+
+        cell = f'''    <td align="center" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
+      <a href="{repo_url}"><img src="{img}" width="100%" alt="{esc(r["name"])}"/></a><br><br>
+      {buttons}
+    </td>'''
+        cards_html.append(cell)
+        log(f"  {r['name']}.svg -> repo:{repo_url} site:{homepage or '—'}")
+
+    if not cards_html:
         content_block = '\n\n_No deployed repos yet — set a Website URL in repo About to appear here._\n'
+    else:
+        rows = []
+        for i in range(0, len(cards_html), 2):
+            pair = cards_html[i:i + 2]
+            if len(pair) == 1:
+                pair[0] = pair[0].replace('width="50%"', 'width="100%" colspan="2"')
+            rows.append("  <tr>\n" + "\n".join(pair) + "\n  </tr>")
+        table = '<table style="width:100%;border:none;border-spacing:10px 10px;">\n' + "\n".join(rows) + "\n</table>"
+        content_block = f'\n\n<div align="center">\n\n{table}\n\n</div>\n'
 
     with open(README, "r") as f:
         content = f.read()
