@@ -322,29 +322,29 @@
 <table style="width:100%;border:none;">
   <tr>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🌐 [![Nepal-3d-portfolio](https://img.shields.io/badge/Nepal--3d--portfolio-open-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Nepal-3d-portfolio)<br>
+      🌐 ![Nepal-3d-portfolio](https://img.shields.io/badge/Nepal--3d--portfolio-open-blue?style=for-the-badge&logo=github&logoColor=white)<br>
       <span style="color:#a6adc8;">Three.js 3D map · live demo</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🛍️ [![Ojt-Ecommerce](https://img.shields.io/badge/Ojt--Ecommerce-open-yellow?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)<br>
+      🛍️ ![Ojt-Ecommerce](https://img.shields.io/badge/Ojt--Ecommerce-open-yellow?style=for-the-badge&logo=github&logoColor=white)<br>
       <span style="color:#a6adc8;">Django full-stack store</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      💪 [![Fitness-Hub](https://img.shields.io/badge/Fitness--Hub-open-green?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Fitness-Hub)<br>
+      💪 ![Fitness-Hub](https://img.shields.io/badge/Fitness--Hub-open-green?style=for-the-badge&logo=github&logoColor=white)<br>
       <span style="color:#a6adc8;">fitness tracking web app</span>
     </td>
   </tr>
   <tr>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🚚 [![Shipping-Site](https://img.shields.io/badge/Shipping--Site-open-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Shipping-Site)<br>
+      🚚 ![Shipping-Site](https://img.shields.io/badge/Shipping--Site-open-red?style=for-the-badge&logo=github&logoColor=white)<br>
       <span style="color:#a6adc8;">shipping quote &amp; tracking</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      📱 [![Pickora](https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Pickora)<br>
+      📱 ![Pickora](https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white)<br>
       <span style="color:#a6adc8;">web app · live on Netlify</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🐧 [![OS-installation](https://img.shields.io/badge/OS--installation-open-teal?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/OS-installation)<br>
+      🐧 ![OS-installation](https://img.shields.io/badge/OS--installation-open-teal?style=for-the-badge&logo=github&logoColor=white)<br>
       <span style="color:#a6adc8;">Arch · Ubuntu setup guide</span>
     </td>
   </tr>
@@ -357,25 +357,25 @@
 <!-- PROJECTS:start -->
 
 
-[![Nepal-3d-portfolio](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg)](https://github.com/jeevannar16-web/Nepal-3d-portfolio)
+![Nepal-3d-portfolio](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg)
 
-[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jeevannar16-web.github.io/Nepal-3d-portfolio/)
+![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
 
-[![OS-installation](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg)](https://github.com/jeevannar16-web/OS-installation)
+![OS-installation](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg)
 
-[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://os-installation.vercel.app)
+![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
 
-[![Ojt-Ecommerce-Website](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg)](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
+![Ojt-Ecommerce-Website](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg)
 
-[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ojt-ecommerce-website.onrender.com)
+![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
 
-[![Shipping-Site](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg)](https://github.com/jeevannar16-web/Shipping-Site)
+![Shipping-Site](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg)
 
-[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shipping-site-jeevan.vercel.app)
+![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
 
-[![Pickora](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg)](https://github.com/jeevannar16-web/Pickora)
+![Pickora](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg)
 
-[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pickorad.netlify.app)
+![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
 <!-- PROJECTS:end -->
 
 <br>
