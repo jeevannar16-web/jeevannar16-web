@@ -361,25 +361,39 @@
 <!-- PROJECTS:start -->
 
 
-![Nepal-3d-portfolio](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg)
+<div align="center">
 
-![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
+<table style="width:100%;border:none;border-spacing:10px 10px;">
+  <tr>
+    <td align="center" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
+      <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="100%" alt="Nepal-3d-portfolio"/></a><br><br>
+      <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://jeevannar16-web.github.io/Nepal-3d-portfolio/"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+    </td>
+    <td align="center" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
+      <a href="https://github.com/jeevannar16-web/OS-installation"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="100%" alt="OS-installation"/></a><br><br>
+      <a href="https://github.com/jeevannar16-web/OS-installation"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://os-installation.vercel.app"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
+      <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="100%" alt="Ojt-Ecommerce-Website"/></a><br><br>
+      <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://ojt-ecommerce-website.onrender.com"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+    </td>
+    <td align="center" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
+      <a href="https://github.com/jeevannar16-web/Shipping-Site"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="100%" alt="Shipping-Site"/></a><br><br>
+      <a href="https://github.com/jeevannar16-web/Shipping-Site"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://shipping-site-jeevan.vercel.app"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100%" colspan="2" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
+      <a href="https://github.com/jeevannar16-web/Pickora"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="100%" alt="Pickora"/></a><br><br>
+      <a href="https://github.com/jeevannar16-web/Pickora"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://pickorad.netlify.app"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+    </td>
+  </tr>
+</table>
 
-![OS-installation](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg)
+</div>
 
-![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
-
-![Ojt-Ecommerce-Website](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg)
-
-![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
-
-![Shipping-Site](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg)
-
-![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
-
-![Pickora](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg)
-
-![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)
 <!-- PROJECTS:end -->
 
 <br>
