@@ -18,18 +18,13 @@
 
 <div align="center">
 
-<a href="https://github.com/jeevannar16-web?tab=followers" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e" alt="GitHub followers" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://github.com/jeevannar16-web?tab=repositories&sort=stargazers" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e" alt="GitHub stars" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://github.com/jeevannar16-web/pulls" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e" alt="Pull requests" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://github.com/jeevannar16-web?tab=repositories" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e" alt="Repositories" height="28" style="border-radius:6px;"/>
-</a>
+[![GitHub followers](https://img.shields.io/github/followers/jeevannar16-web?style=for-the-badge&logo=github&color=89b4fa&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=followers)
+
+[![GitHub stars](https://img.shields.io/github/stars/jeevannar16-web?style=for-the-badge&logo=github&color=f9e2af&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories&sort=stargazers)
+
+[![Pull requests](https://img.shields.io/badge/PRs-35-f38ba8?style=for-the-badge&logo=gitpullrequest&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web/pulls)
+
+[![Repositories](https://img.shields.io/badge/Repos-13-89b4fa?style=for-the-badge&logo=github&logoColor=white&labelColor=1e1e2e)](https://github.com/jeevannar16-web?tab=repositories)
 
 </div>
 
@@ -327,29 +322,29 @@
 <table style="width:100%;border:none;">
   <tr>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🌐 <a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio" target="_blank" rel="noopener noreferrer"><strong style="color:#89b4fa;">Nepal-3d-portfolio</strong></a><br>
+      🌐 [![Nepal-3d-portfolio](https://img.shields.io/badge/Nepal--3d--portfolio-open-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Nepal-3d-portfolio)<br>
       <span style="color:#a6adc8;">Three.js 3D map · live demo</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🛍️ <a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website" target="_blank" rel="noopener noreferrer"><strong style="color:#f9e2af;">Ojt-Ecommerce</strong></a><br>
+      🛍️ [![Ojt-Ecommerce](https://img.shields.io/badge/Ojt--Ecommerce-open-yellow?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)<br>
       <span style="color:#a6adc8;">Django full-stack store</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      💪 <a href="https://github.com/jeevannar16-web/Fitness-Hub" target="_blank" rel="noopener noreferrer"><strong style="color:#a6e3a1;">Fitness-Hub</strong></a><br>
+      💪 [![Fitness-Hub](https://img.shields.io/badge/Fitness--Hub-open-green?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Fitness-Hub)<br>
       <span style="color:#a6adc8;">fitness tracking web app</span>
     </td>
   </tr>
   <tr>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🚚 <a href="https://github.com/jeevannar16-web/Shipping-Site" target="_blank" rel="noopener noreferrer"><strong style="color:#f38ba8;">Shipping-Site</strong></a><br>
+      🚚 [![Shipping-Site](https://img.shields.io/badge/Shipping--Site-open-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Shipping-Site)<br>
       <span style="color:#a6adc8;">shipping quote &amp; tracking</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      📱 <a href="https://github.com/jeevannar16-web/Pickora" target="_blank" rel="noopener noreferrer"><strong style="color:#fab387;">Pickora</strong></a><br>
+      📱 [![Pickora](https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/Pickora)<br>
       <span style="color:#a6adc8;">web app · live on Netlify</span>
     </td>
     <td align="left" width="33%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      🐧 <a href="https://github.com/jeevannar16-web/OS-installation" target="_blank" rel="noopener noreferrer"><strong style="color:#94e2d5;">OS-installation</strong></a><br>
+      🐧 [![OS-installation](https://img.shields.io/badge/OS--installation-open-teal?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web/OS-installation)<br>
       <span style="color:#a6adc8;">Arch · Ubuntu setup guide</span>
     </td>
   </tr>
@@ -362,25 +357,25 @@
 <!-- PROJECTS:start -->
 
 
-<a href="https://github.com/jeevannar16-web/Nepal-3d-portfolio" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg" width="520"/></a>
+[![Nepal-3d-portfolio](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Nepal-3d-portfolio.svg)](https://github.com/jeevannar16-web/Nepal-3d-portfolio)
 
-<a href="https://jeevannar16-web.github.io/Nepal-3d-portfolio/" target="_blank" rel="noopener noreferrer">🔗 live site</a>
+[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jeevannar16-web.github.io/Nepal-3d-portfolio/)
 
-<a href="https://github.com/jeevannar16-web/OS-installation" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg" width="520"/></a>
+[![OS-installation](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/OS-installation.svg)](https://github.com/jeevannar16-web/OS-installation)
 
-<a href="https://os-installation.vercel.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
+[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://os-installation.vercel.app)
 
-<a href="https://github.com/jeevannar16-web/Ojt-Ecommerce-Website" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg" width="520"/></a>
+[![Ojt-Ecommerce-Website](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Ojt-Ecommerce-Website.svg)](https://github.com/jeevannar16-web/Ojt-Ecommerce-Website)
 
-<a href="https://ojt-ecommerce-website.onrender.com" target="_blank" rel="noopener noreferrer">🔗 live site</a>
+[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ojt-ecommerce-website.onrender.com)
 
-<a href="https://github.com/jeevannar16-web/Shipping-Site" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg" width="520"/></a>
+[![Shipping-Site](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Shipping-Site.svg)](https://github.com/jeevannar16-web/Shipping-Site)
 
-<a href="https://shipping-site-jeevan.vercel.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
+[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shipping-site-jeevan.vercel.app)
 
-<a href="https://github.com/jeevannar16-web/Pickora" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg" width="520"/></a>
+[![Pickora](https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Pickora.svg)](https://github.com/jeevannar16-web/Pickora)
 
-<a href="https://pickorad.netlify.app" target="_blank" rel="noopener noreferrer">🔗 live site</a>
+[![Live site](https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pickorad.netlify.app)
 <!-- PROJECTS:end -->
 
 <br>
@@ -456,21 +451,15 @@
 
 <div align="center">
 
-<a href="mailto:jeevannar16@gmail.com" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://github.com/jeevannar16-web" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://leetcode.com/u/jeevannar16-web/" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://huggingface.co/Jeevannar16" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" height="28" style="border-radius:6px;"/>
-</a>
-<a href="https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin:4px 6px;">
-  <img src="https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime" height="28" style="border-radius:6px;"/>
-</a>
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevannar16@gmail.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeevannar16-web)
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jeevannar16-web/)
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Jeevannar16)
+
+[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@74efff32-a9ca-4477-af24-bb2ad235db6f)
 
 </div>
 

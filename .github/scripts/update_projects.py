@@ -93,8 +93,9 @@ def main():
             f.write(svg)
         url = f"https://github.com/{USERNAME}/{r['name']}"
         img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
-        repo_link = f'<a href="{url}" target="_blank" rel="noopener noreferrer"><img src="{img}" width="520"/></a>'
-        badge = f'\n\n<a href="{r["homepage"]}" target="_blank" rel="noopener noreferrer">🔗 live site</a>' if r.get("homepage") else ""
+        repo_link = f'[![{esc(r["name"])}]({img})]({url})'
+        badge_url = f'https://img.shields.io/badge/LIVE_SITE-open-green?style=for-the-badge&logo=googlechrome&logoColor=white'
+        badge = f'\n\n[![Live site]({badge_url})]({r["homepage"]})' if r.get("homepage") else ""
         content_block += f'\n\n{repo_link}{badge}'
         log(f"  {r['name']}.svg")
 
