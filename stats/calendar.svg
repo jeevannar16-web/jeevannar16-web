@@ -376,7 +376,7 @@
   <rect x="739" y="80" width="11" height="11" rx="2.5" fill="#123f31"/>
   <rect x="739" y="94" width="11" height="11" rx="2.5" fill="#123f31"/>
   <rect x="739" y="108" width="11" height="11" rx="2.5" fill="#123f31"/>
-  <rect x="739" y="122" width="11" height="11" rx="2.5" fill="#1e1e2e"/>
+  <rect x="739" y="122" width="11" height="11" rx="2.5" fill="#123f31"/>
   <text x="693" y="157" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="10" fill="#a6adc8">Less</text>
   <rect x="723" y="148" width="10" height="10" rx="2" fill="#1e1e2e"/>
   <rect x="737" y="148" width="10" height="10" rx="2" fill="#123f31"/>
