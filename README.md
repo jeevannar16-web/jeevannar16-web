@@ -331,13 +331,19 @@
     </td>
   </tr>
   <tr>
+    <td colspan="2" align="left" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
+      🎮 <a href="https://github.com/jeevannar16-web/Gaming-Hub"><img src="https://img.shields.io/badge/Gaming--Hub-open-purple?style=for-the-badge&logo=github&logoColor=white"/></a><br>
+      <span style="color:#a6adc8;">Neon Arcade · pocket arcade of browser games — Cap Quest + Spinora, no installs, no servers</span>
+    </td>
+  </tr>
+  <tr>
     <td align="left" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
       🚚 <a href="https://shipping-site-jeevan.vercel.app"><img src="https://img.shields.io/badge/Shipping--Site-open-red?style=for-the-badge&logo=github&logoColor=white"/></a><br>
       <span style="color:#a6adc8;">shipping quote &amp; tracking</span>
     </td>
     <td align="left" width="50%" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:12px 14px;font-family:'Fira Code',monospace;font-size:12px;color:#cdd6f4;line-height:1.8;">
-      📱 <a href="https://github.com/jeevannar16-web/Pickora"><img src="https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white"/></a><br>
-      <span style="color:#a6adc8;">web app · live on Netlify</span>
+      📱 <a href="https://github.com/jeevannar16-web/Gaming-Hub"><img src="https://img.shields.io/badge/Pickora-open-pink?style=for-the-badge&logo=github&logoColor=white"/></a><br>
+      <span style="color:#a6adc8;">spin wheel game · live on GitHub Pages</span>
     </td>
   </tr>
   <tr>
@@ -381,7 +387,7 @@
   <tr>
     <td align="center" width="100%" colspan="2" style="background:#181825;border:1.5px solid #313244;border-radius:12px;padding:14px;">
       <a href="https://github.com/jeevannar16-web/Gaming-Hub"><img src="https://raw.githubusercontent.com/jeevannar16-web/jeevannar16-web/main/stats/repos/Gaming-Hub.svg" width="100%" alt="Gaming-Hub"/></a><br><br>
-      <a href="https://github.com/jeevannar16-web/Gaming-Hub"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="jeevannar16-web.github.io/Gaming-Hub/"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+      <a href="https://github.com/jeevannar16-web/Gaming-Hub"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://jeevannar16-web.github.io/Gaming-Hub/"><img src="https://img.shields.io/badge/LIVE_SITE-open-a6e3a1?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
     </td>
   </tr>
 </table>
