@@ -47,6 +47,31 @@ def esc(t):
     return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
+def normalize_url(url):
+    """Make a live link safe to click. GitHub's About "Website" field can hold a
+    bare 'user.github.io/repo' - without https:// that becomes a relative URL in
+    the README and the live site appears broken. Prefix it when missing."""
+    url = (url or "").strip()
+    if not url:
+        return ""
+    if url.startswith(("http://", "https://")):
+        return url
+    return "https://" + url.lstrip("/")
+
+
+def remove_stale_cards(referenced):
+    """Delete card SVGs for repos that were deleted or no longer deployed, so a
+    removed project disappears from the repo as well, not just the README."""
+    removed = []
+    for fname in os.listdir(CARDS_DIR):
+        if not fname.endswith(".svg"):
+            continue
+        if f"stats/repos/{fname}" not in referenced:
+            os.remove(os.path.join(CARDS_DIR, fname))
+            removed.append(fname)
+    return removed
+
+
 def generate_repo_card(r):
     c = TOKYO
     w, h = 495, 120
@@ -78,7 +103,7 @@ def main():
 
     repos = curl_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=stars&direction=desc")
     if not repos or not isinstance(repos, list):
-        log("FAILED to fetch repos")
+        log("FAILED to fetch repos - keeping README as-is (fail-safe, never wipe the section)")
         return
 
     deployed = [r for r in repos if r.get("homepage") and not r["fork"] and r["name"] != USERNAME]
@@ -94,7 +119,7 @@ def main():
 
         repo_url = r.get("html_url") or f"https://github.com/{USERNAME}/{r['name']}"
         img = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/main/stats/repos/{r['name']}.svg"
-        homepage = r.get("homepage")
+        homepage = normalize_url(r.get("homepage"))
 
         buttons = f'<a href="{repo_url}"><img src="https://img.shields.io/badge/REPO-open-89b4fa?style=for-the-badge&logo=github&logoColor=white"/></a>'
         if homepage:
@@ -131,8 +156,10 @@ def main():
         with open(README, "w") as f:
             f.write(new_content)
         log("README.md updated")
+        for fname in remove_stale_cards(new_content):
+            log(f"  removed stale card: {fname}")
     else:
-        log("Markers not found in README.md")
+        log("Markers not found in README.md - keeping README as-is (fail-safe)")
 
 
 if __name__ == "__main__":

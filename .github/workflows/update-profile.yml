@@ -5,7 +5,10 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 6 * * *'
+    # Every 6 hours. Picks up repos that were deleted, renamed, or got a new
+    # live link without waiting for a push to this profile repo.
+    # Note: GitHub can delay scheduled runs by ~15-30 min; that is normal.
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -46,4 +49,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stats/ README.md
-          git diff --staged --quiet || git commit -m "chore: update profile stats [skip ci]" && git push
+          if git diff --staged --quiet; then
+            echo "No changes - nothing to commit or push"
+          else
+            git commit -m "chore: update profile stats [skip ci]"
+            git push
+          fi
