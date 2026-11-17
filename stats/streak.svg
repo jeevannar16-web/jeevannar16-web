@@ -6,9 +6,9 @@
   <text x="25" y="88" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="34" font-weight="700" fill="#00ff9c">0</text>
   <text x="25" y="104" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">days</text>
   <text x="190" y="52" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Longest Streak</text>
-  <text x="190" y="88" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="34" font-weight="700" fill="#f9e2af">0</text>
+  <text x="190" y="88" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="34" font-weight="700" fill="#f9e2af">25</text>
   <text x="190" y="104" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">days</text>
   <text x="355" y="52" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">Total Contributions</text>
-  <text x="355" y="88" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="34" font-weight="700" fill="#cba6f7">0</text>
+  <text x="355" y="88" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="34" font-weight="700" fill="#cba6f7">2274</text>
   <text x="355" y="104" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#a6adc8">this year</text>
 </svg>
